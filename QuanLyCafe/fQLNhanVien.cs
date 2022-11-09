@@ -7,15 +7,21 @@ namespace QuanLyCafe
 {
     public partial class fQLNhanVien : Form
     {
+        NhanVienDAO db;
         string strConnect = "Data Source = DESKTOP-12J6D6C;" + "Initial Catalog = QLTiemGame;" + "Integrated Security=True";
         SqlConnection conn = null;
         SqlCommand command = new SqlCommand();
         SqlDataAdapter dap = null;
         DataTable dt = null;
+
+   
+        DataSet nhanvien;
+        DataTable dt_nhanvien;
         public fQLNhanVien()
         {
+            db = new NhanVienDAO();
             InitializeComponent();
-            conn = new SqlConnection(strConnect);
+         
             layNVFromProc();
         }
 
@@ -42,59 +48,134 @@ namespace QuanLyCafe
 
         private void fQLNhanVien_Load(object sender, EventArgs e)
         {
-
+            conn = new SqlConnection(strConnect);
         }
 
         private void btnThemNV_Click(object sender, EventArgs e)
         {
-         /*   if (conn.State == ConnectionState.Open)
-            {
-                conn.Close();
-            }
-            conn.Open();
+
             try
             {
-                //tao object thuc thi proc
-                SqlCommand cmd = new SqlCommand("proc_ThemNhanVien", conn);
-                cmd.CommandType = CommandType.StoredProcedure;
+                string err = "";
+                if (!db.ThemNhanVien(ref err, txtTenDangNhap.Text, txtMatKhau.Text, txtHoTenNV.Text, cmbGioiTinhNV.Text, txtSoDT.Text,txtDiaChiNV.Text,txtVaiTroNV.Text, txtTienLuongNV.Text))
+                    MessageBox.Show("Lỗi :" + err);
+                else
 
-                //Lay du lieu tu front-end
-                string ten_dang_nhap = txtTenDangNhap.Text;
-                string mat_khau = txtMK.Text;
-                string ho_ten = txtHoTen.Text;
-                string gioi_tinh = txtGioiTinh.Text;
-                string dia_chi = txtDiaChi.Text;
-                string vai_tro = txtVaiTro.Text;
-                string so_dien_thoai = txtSDT.Text;
-
-                //them tham so vo thu tuc
-                SqlParameter p1 = new SqlParameter("@ten_dang_nhap", ten_dang_nhap);
-                cmd.Parameters.Add(p1);
-                SqlParameter p2 = new SqlParameter("@mat_khau", mat_khau);
-                cmd.Parameters.Add(p2);
-                SqlParameter p3 = new SqlParameter("@ho_ten", ho_ten);
-                cmd.Parameters.Add(p3);
-                *//* SqlParameter p4 = new SqlParameter("@ngay_sinh", ngay_sinh);
-                 cmd.Parameters.Add(p4);*//*
-                SqlParameter p5 = new SqlParameter("@gioi_tinh", gioi_tinh);
-                cmd.Parameters.Add(p5);
-                SqlParameter p6 = new SqlParameter("@so_dien_thoai", so_dien_thoai);
-                cmd.Parameters.Add(p6);
-                SqlParameter p7 = new SqlParameter("@dia_chi", dia_chi);
-                cmd.Parameters.Add(p7);
-                SqlParameter p8 = new SqlParameter("@vai_tro", vai_tro);
-                cmd.Parameters.Add(p8);
-                //
-                cmd.ExecuteNonQuery();
-
+                {
+                    MessageBox.Show("Thêm Nhân Viên Thành Công");
+                }
             }
-            catch (Exception ex) { Console.WriteLine(ex.Message); }
-            finally { conn.Close(); laySPFromProc(); }*/
+            catch
+            {
+                MessageBox.Show("Lỗi!!! Thử Lại Lần Sau. ");
+            }
+
+           
         }
 
         private void dataGridViewNV_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void btnSuaNV_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string err = "";
+                if (!db.CapNhapNhanVien(ref err, txtTenDangNhap.Text, txtMatKhau.Text, txtHoTenNV.Text,dateTimePickerNSNV.Value, cmbGioiTinhNV.Text, txtSoDT.Text, txtDiaChiNV.Text, txtVaiTroNV.Text, txtTienLuongNV.Text))
+                    MessageBox.Show("Lỗi :" + err);
+                else
+                {
+                    MessageBox.Show("Sửa Nhân Viên Thành Công");
+                    layNVFromProc();
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Lỗi!!! Thử Lại Lần Sau. ");
+            }
+        }
+
+        private void dataGridViewNV_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dataGridViewNV.CurrentCell != null)
+            {
+                int r = dataGridViewNV.CurrentCell.RowIndex;
+                // Chuyển thông tin lên panel
+                this.txtTenDangNhap.Text = dataGridViewNV.Rows[r].Cells[1].Value.ToString();
+                this.txtHoTenNV.Text = dataGridViewNV.Rows[r].Cells[2].Value.ToString();
+                this.dateTimePickerNSNV.Text = dataGridViewNV.Rows[r].Cells[3].Value.ToString();
+                this.txtSoDT.Text = dataGridViewNV.Rows[r].Cells[4].Value.ToString();
+                this.cmbGioiTinhNV.Text = dataGridViewNV.Rows[r].Cells[5].Value.ToString();
+                this.txtDiaChiNV.Text = dataGridViewNV.Rows[r].Cells[6].Value.ToString();
+                this.txtVaiTroNV.Text = dataGridViewNV.Rows[r].Cells[7].Value.ToString();
+                this.txtTienLuongNV.Text = dataGridViewNV.Rows[r].Cells[8].Value.ToString();
+               
+            }
+        }
+
+        private void btnXoaNV_Click(object sender, EventArgs e)
+        {
+            int r = dataGridViewNV.CurrentCell.RowIndex;
+            if (dataGridViewNV.Rows[r].Cells[0].Value.ToString() == null)
+                MessageBox.Show("Hãy chọn Nhân Viên cần xóa!!!");
+
+            else
+            {
+                try
+                {
+                    string err = " ";
+                    // Khai báo biến traloi 
+                    DialogResult traloi;
+                    // Hiện hộp thoại hỏi đáp 
+                    string ma_nhan_vien = dataGridViewNV.Rows[r].Cells[0].Value.ToString();
+                    MessageBox.Show(ma_nhan_vien);
+                    traloi = MessageBox.Show("Chắc xóa không?", "Trả lời",
+                    MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                    // Kiểm tra có nhắp chọn nút Ok không? 
+                    if (traloi == DialogResult.OK)
+                    {
+
+                        if (db.XoaNhanVien(ref err, ma_nhan_vien))
+                        {
+                            MessageBox.Show("Xóa Thành Công");
+                            layNVFromProc();
+                       
+                        }
+                        else
+                            MessageBox.Show("Lỗi :" + err);
+                    }
+
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Lỗi!!! Thử Lại Lần Sau.");
+                }
+            }
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnXemThongTinNV_Click(object sender, EventArgs e)
+        {
+            int r = dataGridViewNV.CurrentCell.RowIndex;
+            try
+            {
+                string ma_nhan_vien = dataGridViewNV.Rows[r].Cells[0].Value.ToString();
+                string maNV = txtMaNV.Text;
+                btnXoaNV.Enabled = true;
+                nhanvien = db.NhanVientheoMaNV(maNV);
+                dt_nhanvien = nhanvien.Tables[0];
+                dataGridViewNV.DataSource = dt_nhanvien;
+            }
+            catch (SqlException)
+            {
+                MessageBox.Show("Bạn Không có quyền truy xuất");
+            }
         }
     }
 }

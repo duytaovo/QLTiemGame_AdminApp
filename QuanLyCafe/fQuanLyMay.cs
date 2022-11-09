@@ -41,5 +41,10 @@ namespace QuanLyCafe
         {
 
         }
+
+        private void btn_BatMay_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

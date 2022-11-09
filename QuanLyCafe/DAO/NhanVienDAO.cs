@@ -19,45 +19,45 @@ namespace QuanLyCafe.DAO
             return db.ExecuteQuery("proc_XemDanhSachNhanVien", CommandType.StoredProcedure);
         }
 
-
-        public bool ThemNhanVien(ref string err, string Ma_NV, string Ten_NV, string Cmnd, string DienThoai, DateTime Ngay_lamviec, float Luong)
+        public DataSet NhanVientheoMaNV(string ma_nhan_vien)
         {
-            return db.MyExecuteNonQuery("SpThemNhanVien", CommandType.StoredProcedure, ref err,
-                new SqlParameter("@Ma_NV", Ma_NV),
-                new SqlParameter("@Ten_NV", Ten_NV),
-                new SqlParameter("@Cmnd", Cmnd),
-                new SqlParameter("@DienThoai", DienThoai),
-                new SqlParameter("@Ngay_lamviec", Ngay_lamviec),
-                new SqlParameter("@Luong", Luong)
+            string query = string.Format("SELECT * FROM XemThongTinNhanVien('{0}');", ma_nhan_vien);
+            return db.ExcuteQuerryDataSet(query, CommandType.Text, null);
+        }
+        public bool ThemNhanVien(ref string err, string ten_dang_nhap, string mat_khau, string ho_ten,  string gioi_tinh, string so_dien_thoai, string dia_chi, string vai_tro, string luong_thang)
+        {
+            return db.MyExecuteNonQuery("proc_ThemNhanVien", CommandType.StoredProcedure, ref err,
+                new SqlParameter("@ten_dang_nhap", ten_dang_nhap),
+                new SqlParameter("@mat_khau", mat_khau),
+                new SqlParameter("@ho_ten", ho_ten),
+          /*      new SqlParameter("@ngay_sinh", ngay_sinh),*/
+                new SqlParameter("@gioi_tinh", gioi_tinh),
+                new SqlParameter("@so_dien_thoai", so_dien_thoai),
+                new SqlParameter("@dia_chi", dia_chi),
+                new SqlParameter("@vai_tro", vai_tro),
+                new SqlParameter("@luong_thang", luong_thang)
                 );
         }
 
-        /*  public bool ThemNhanVien(ref string err, string Ma_NV, string Ten_NV, string Cmnd, string DienThoai, DateTime Ngay_lamviec, float Luong)
+
+          public bool CapNhapNhanVien(ref string err, string ten_dang_nhap, string mat_khau, string ho_ten, DateTime ngay_sinh, string gioi_tinh, string so_dien_thoai, string dia_chi, string vai_tro, string luong_thang)
           {
-              return db.MyExecuteNonQuery("SpThemNhanVien", CommandType.StoredProcedure, ref err,
-                  new SqlParameter("@Ma_NV", Ma_NV),
-                  new SqlParameter("@Ten_NV", Ten_NV),
-                  new SqlParameter("@Cmnd", Cmnd),
-                  new SqlParameter("@DienThoai", DienThoai),
-                  new SqlParameter("@Ngay_lamviec", Ngay_lamviec),
-                  new SqlParameter("@Luong", Luong)
-                  );
-          }
-          public bool CapNhapNhanVien(ref string err, string Ma_NV, string Ten_NV, string Cmnd, string DienThoai, DateTime Ngay_lamviec, float Luong)
-          {
-              return db.MyExecuteNonQuery("SpCapNhatNhanVien", CommandType.StoredProcedure, ref err,
-                  new SqlParameter("@Ma_NV", Ma_NV),
-                  new SqlParameter("@Ten_NV", Ten_NV),
-                  new SqlParameter("@Cmnd", Cmnd),
-                  new SqlParameter("@DienThoai", DienThoai),
-                  new SqlParameter("@Ngay_lamviec", Ngay_lamviec),
-                  new SqlParameter("@Luong", Luong)
+              return db.MyExecuteNonQuery("proc_SuaNhanVien", CommandType.StoredProcedure, ref err,
+                  new SqlParameter("@ten_dang_nhap", ten_dang_nhap),
+                new SqlParameter("@mat_khau", mat_khau),
+                new SqlParameter("@ho_ten", ho_ten),
+                new SqlParameter("@ngay_sinh", ngay_sinh),
+                new SqlParameter("@gioi_tinh", gioi_tinh),
+                new SqlParameter("@so_dien_thoai", so_dien_thoai),
+                new SqlParameter("@dia_chi", dia_chi),
+                new SqlParameter("@vai_tro", vai_tro),
+                new SqlParameter("@luong_thang", luong_thang)
                   );
           }
           public bool XoaNhanVien(ref string err, string Ma_NV)
           {
-              return db.MyExecuteNonQuery("SpXoaNhanVien", CommandType.StoredProcedure, ref err, new SqlParameter("@Ma_NV", Ma_NV));
+              return db.MyExecuteNonQuery("proc_XoaNhanVien", CommandType.StoredProcedure, ref err, new SqlParameter("@ma_nhan_vien", Ma_NV));
           }
-  */
+  
     } 
 }

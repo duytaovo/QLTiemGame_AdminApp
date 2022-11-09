@@ -1,30 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
+
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+
 namespace QuanLyCafe.DAO
 {
     public class DataProvider
     {
         private static DataProvider instance;
-
+        string connectionSTR = "Data Source = DESKTOP-12J6D6C;" + "Initial Catalog = QLTiemGame;" + "Integrated Security=True";
+        SqlConnection cnn = null;
+        SqlCommand cmd = new SqlCommand();
+        SqlDataAdapter adp = null;
+        DataTable dt = null;
         public static DataProvider Instance
         {
             get { if (instance == null) instance = new DataProvider(); return DataProvider.instance; }
             private set { DataProvider.instance = value; }
         }
 
-        public DataProvider() { }
+        public DataProvider() { 
+ 
+            cnn = new SqlConnection(connectionSTR);
+            cmd = cnn.CreateCommand();
+         
+        }
 
         /*  string connectionSTR = "Data Source=.;Initial Catalog=QuanLyQuanCafe;Integrated Security=True";*/
-        string connectionSTR = "Data Source = DESKTOP-12J6D6C;" + "Initial Catalog = QLTiemGame;" + "Integrated Security=True";
-        SqlConnection cnn;
-        SqlCommand cmd;
-        SqlDataAdapter adp = null;
+       
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
             DataTable data = new DataTable();
@@ -130,7 +133,6 @@ namespace QuanLyCafe.DAO
 
         public bool MyExecuteNonQuery(string strSQL, CommandType ct, ref string error, params SqlParameter[] param)
         {
-            cnn = new SqlConnection(connectionSTR);
             bool f = false;
             if (cnn.State == ConnectionState.Open)
                 cnn.Close();
@@ -188,6 +190,22 @@ namespace QuanLyCafe.DAO
             }
 
             return data;
+        }
+
+        public DataSet ExcuteQuerryDataSet(string strSQL, CommandType ct, params SqlParameter[] p)
+        {
+
+            //Nếu Connection đang mở=>Đóng
+            if (cnn.State == ConnectionState.Open)
+                cnn.Close();
+            //Mở Connection
+            cnn.Open();
+            cmd.CommandType = ct;
+            cmd.CommandText = strSQL;
+            adp = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            adp.Fill(ds);
+            return ds;
         }
     }
 }
