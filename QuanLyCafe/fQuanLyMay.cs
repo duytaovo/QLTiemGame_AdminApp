@@ -44,7 +44,16 @@ namespace QuanLyCafe
 
         private void btn_BatMay_Click(object sender, EventArgs e)
         {
+            fTableMay f = new fTableMay();
+            f.ShowDialog();
+            this.Show();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            fAddTimeMember f = new fAddTimeMember();
+            f.ShowDialog();
+            this.Show();
         }
     }
 }

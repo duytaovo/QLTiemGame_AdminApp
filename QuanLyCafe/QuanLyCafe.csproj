@@ -71,6 +71,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include=".Designer.cs" />
     <Compile Include="Add_foods_image.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +88,7 @@
     <Compile Include="DAO\MenuDAO.cs" />
     <Compile Include="DAO\NhanVienDAO.cs" />
     <Compile Include="DAO\TableDAO.cs" />
+    <Compile Include="DAO\MemberDAO.cs" />
     <Compile Include="DTO\Account.cs" />
     <Compile Include="DTO\Bill.cs" />
     <Compile Include="DTO\BillInfo.cs" />
@@ -101,6 +103,18 @@
     </Compile>
     <Compile Include="fAccountProfile.Designer.cs">
       <DependentUpon>fAccountProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMember.Designer.cs">
+      <DependentUpon>fMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fAddTimeMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAddTimeMember.Designer.cs">
+      <DependentUpon>fAddTimeMember.cs</DependentUpon>
     </Compile>
     <Compile Include="fAdmin.cs">
       <SubType>Form</SubType>
@@ -126,6 +140,12 @@
     <Compile Include="fTableManager.Designer.cs">
       <DependentUpon>fTableManager.cs</DependentUpon>
     </Compile>
+    <Compile Include="fTableMay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTableMay.Designer.cs">
+      <DependentUpon>fTableMay.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="fQLNhanVien.cs">
@@ -140,6 +160,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fAccountProfile.resx">
       <DependentUpon>fAccountProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMember.resx">
+      <DependentUpon>fMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAddTimeMember.resx">
+      <DependentUpon>fAddTimeMember.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fAdmin.resx">
       <DependentUpon>fAdmin.cs</DependentUpon>
@@ -158,6 +184,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fTableManager.resx">
       <DependentUpon>fTableManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTableMay.resx">
+      <DependentUpon>fTableMay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

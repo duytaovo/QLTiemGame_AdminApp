@@ -14,6 +14,16 @@ namespace QuanLyCafe.DAO
         {
             db = new DataProvider();
         }
+
+        public bool Login (ref string err, string ten_dang_nhap, string mat_khau)
+        {
+            return db.MyExecuteNonQuery("proc_Login", CommandType.StoredProcedure, ref err,
+               new SqlParameter("@ten_dang_nhap", ten_dang_nhap),
+               new SqlParameter("@mat_khau", mat_khau)
+               );
+        }
+
+       
         public DataTable layNVFromProc()
         {
             return db.ExecuteQuery("proc_XemDanhSachNhanVien", CommandType.StoredProcedure);

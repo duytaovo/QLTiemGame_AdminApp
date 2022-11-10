@@ -38,7 +38,6 @@ namespace QuanLyCafe
                 dtMonHoc = dataDisplay;
                 dataGridViewNV.DataSource = dtMonHoc;
 
-
             }
             catch (SqlException ex)
             {
@@ -130,7 +129,6 @@ namespace QuanLyCafe
                     DialogResult traloi;
                     // Hiện hộp thoại hỏi đáp 
                     string ma_nhan_vien = dataGridViewNV.Rows[r].Cells[0].Value.ToString();
-                    MessageBox.Show(ma_nhan_vien);
                     traloi = MessageBox.Show("Chắc xóa không?", "Trả lời",
                     MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
                     // Kiểm tra có nhắp chọn nút Ok không? 
@@ -176,6 +174,141 @@ namespace QuanLyCafe
             {
                 MessageBox.Show("Bạn Không có quyền truy xuất");
             }
+        }
+
+        private void txtHoTenNV_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaNV_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMatKhau_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTienLuongNV_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTenDangNhap_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSoDT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDiaChiNV_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbMaLuong_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbGioiTinhNV_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePickerNSNV_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox19_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtVaiTroNV_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

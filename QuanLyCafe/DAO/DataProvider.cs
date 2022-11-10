@@ -12,7 +12,7 @@ namespace QuanLyCafe.DAO
         SqlConnection cnn = null;
         SqlCommand cmd = new SqlCommand();
         SqlDataAdapter adp = null;
-        DataTable dt = null;
+        DataTable dataDisplayView = null;
         public static DataProvider Instance
         {
             get { if (instance == null) instance = new DataProvider(); return DataProvider.instance; }
@@ -131,6 +131,8 @@ namespace QuanLyCafe.DAO
             return data;
         }
 
+       
+
         public bool MyExecuteNonQuery(string strSQL, CommandType ct, ref string error, params SqlParameter[] param)
         {
             bool f = false;
@@ -206,6 +208,21 @@ namespace QuanLyCafe.DAO
             DataSet ds = new DataSet();
             adp.Fill(ds);
             return ds;
+        }
+
+        public DataTable ExcuteQueryDataTable(string strSQL, CommandType ct)
+        {
+            if (cnn.State == ConnectionState.Open)
+            {
+                cnn.Close();
+            }
+            cnn.Open();
+            cmd.CommandText = strSQL;
+            cmd.CommandType = ct;
+            adp = new SqlDataAdapter(cmd);
+            dataDisplayView = new DataTable();
+            adp.Fill(dataDisplayView);
+            return dataDisplayView;
         }
     }
 }

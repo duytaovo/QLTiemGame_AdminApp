@@ -262,11 +262,12 @@ namespace QuanLyCafe
             this.button2.TabIndex = 22;
             this.button2.Text = "NẠP TIỀN";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(-1, 488);
+            this.textBox1.Location = new System.Drawing.Point(-5, 488);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -545,9 +546,9 @@ namespace QuanLyCafe
             this.label2.Location = new System.Drawing.Point(42, 17);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 24);
+            this.label2.Size = new System.Drawing.Size(84, 24);
             this.label2.TabIndex = 10;
-            this.label2.Text = "Số máy";
+            this.label2.Text = "Mã máy";
             // 
             // txt_priceMonDangChon
             // 
@@ -971,7 +972,7 @@ namespace QuanLyCafe
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(280, 180);
+            this.textBox10.Location = new System.Drawing.Point(290, 180);
             this.textBox10.Margin = new System.Windows.Forms.Padding(2);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
@@ -980,7 +981,7 @@ namespace QuanLyCafe
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(280, 137);
+            this.textBox9.Location = new System.Drawing.Point(290, 137);
             this.textBox9.Margin = new System.Windows.Forms.Padding(2);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
@@ -993,7 +994,7 @@ namespace QuanLyCafe
             this.label20.BackColor = System.Drawing.Color.Lime;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(140, 180);
+            this.label20.Location = new System.Drawing.Point(131, 180);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(71, 24);
@@ -1006,7 +1007,7 @@ namespace QuanLyCafe
             this.label19.BackColor = System.Drawing.Color.Lime;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(140, 137);
+            this.label19.Location = new System.Drawing.Point(131, 138);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(146, 24);

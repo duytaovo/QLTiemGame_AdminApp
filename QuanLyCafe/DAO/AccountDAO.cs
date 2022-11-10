@@ -22,7 +22,7 @@ namespace QuanLyCafe.DAO
 
         public bool Login(string userName, string passWord)
         {
-            string query = "USP_Login @userName , @passWord";
+            string query = "proc_Login @ten_dang_nhap , @mat_khau ";
 
             DataTable result = DataProvider.Instance.ExecuteQuery(query, new object[] { userName, passWord });
 
@@ -31,7 +31,7 @@ namespace QuanLyCafe.DAO
 
         public Account GetAccountByUserName(string userName)
         {
-            DataTable data = DataProvider.Instance.ExecuteQuery("Select * from account where username = '" + userName + "'");
+            DataTable data = DataProvider.Instance.ExecuteQuery("Select * from TaiKhoan where @ten_dang_nhap = '" + userName + "'");
 
             foreach (DataRow item in data.Rows)
             {

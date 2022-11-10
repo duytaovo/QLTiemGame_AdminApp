@@ -320,3 +320,6 @@ D:\Năm 3\Hệ qtcs dữ liệu\QuanLyCafe\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CH
 D:\Năm 3\Hệ qtcs dữ liệu\QuanLyCafe\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 D:\Năm 3\Hệ qtcs dữ liệu\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\dje-NE\QuanLyCafe.resources.dll
 D:\Năm 3\Hệ qtcs dữ liệu\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.CopyComplete
+D:\Năm 3\Hệ qtcs dữ liệu\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fTableMay.resources
+D:\Năm 3\Hệ qtcs dữ liệu\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAddTimeMember.resources
+D:\Năm 3\Hệ qtcs dữ liệu\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fMember.resources
