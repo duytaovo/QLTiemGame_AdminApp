@@ -68,7 +68,7 @@ namespace QuanLyCafe
                 Button btn = new Button() { Width = TableDAO.TableWidth, Height = TableDAO.TableHeight };
                 btn.Click += Btn_Click;
                 btn.Tag = item;
-                btn.Text = item.Name + Environment.NewLine + item.Status;
+                btn.Text = item.MaMay + Environment.NewLine + item.Status;
                 switch (item.Status) 
                 {
                     case "Trống":
@@ -128,7 +128,7 @@ namespace QuanLyCafe
         #region Events
         private void Btn_Click(object sender, EventArgs e)
         {
-            int tableID = ((sender as Button).Tag as Table).ID;
+            int tableID =int.Parse(((sender as Button).Tag as Table).MaMay);
             showBill(tableID);
             lv_Bill.Tag = (sender as Button).Tag;
         }
@@ -312,7 +312,7 @@ namespace QuanLyCafe
 
             if (idBill != -1)
             {
-                if (MessageBox.Show(string.Format("Hoá đơn cho {0} là: {1}\nSau khi giảm {2}% còn lại: {3}\nBạn có chắc muốn thanh toán hoá đơn không?", table.Name, totalPrice, discount, finalTotalPrice), "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                if (MessageBox.Show(string.Format("Hoá đơn cho {0} là: {1}\nSau khi giảm {2}% còn lại: {3}\nBạn có chắc muốn thanh toán hoá đơn không?", table.MaMay, totalPrice, discount, finalTotalPrice), "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                 {
                     BillDAO.Instance.CheckOut(idBill, discount, (float)finalTotalPrice);
                     showBill(table.ID);
@@ -335,7 +335,7 @@ namespace QuanLyCafe
             int id1 = (lv_Bill.Tag as Table).ID;
             int id2 = (cb_switchTable.SelectedItem as Table).ID;
 
-            if (MessageBox.Show(string.Format("Bạn có thật sự muốn chuyển bàn {0} qua bàn {1} không?", (lv_Bill.Tag as Table).Name, (cb_switchTable.SelectedItem as Table).Name), "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            if (MessageBox.Show(string.Format("Bạn có thật sự muốn chuyển bàn {0} qua bàn {1} không?", (lv_Bill.Tag as Table).MaMay, (cb_switchTable.SelectedItem as Table).MaMay), "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
             {
                 TableDAO.Instance.SwitchTable(id1, id2);
 

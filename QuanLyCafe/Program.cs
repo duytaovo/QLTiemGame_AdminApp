@@ -16,7 +16,7 @@ namespace QuanLyCafe
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fMember());
+            Application.Run(new fQuanLyMay());
             //List<string> strs = new List<string>();
             //strs[0] = "aaa";
             //strs[1] = "bbb";

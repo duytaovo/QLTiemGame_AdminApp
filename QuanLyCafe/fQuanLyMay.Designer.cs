@@ -29,7 +29,7 @@ namespace QuanLyCafe
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabDichVu = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -45,21 +45,21 @@ namespace QuanLyCafe
             this.tb_totalPrice = new System.Windows.Forms.TextBox();
             this.flp_Talble = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.txtTrangThai = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txtUuDai = new System.Windows.Forms.TextBox();
             this.button10 = new System.Windows.Forms.Button();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtThanhTien = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtDonGia = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtSoGioChoi = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtGioBatDau = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtMaMay = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txt_priceMonDangChon = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -88,6 +88,11 @@ namespace QuanLyCafe
             this.ptB_monDangChon = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.panel9 = new System.Windows.Forms.Panel();
             this.label24 = new System.Windows.Forms.Label();
@@ -103,8 +108,6 @@ namespace QuanLyCafe
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -124,6 +127,8 @@ namespace QuanLyCafe
             this.panel8 = new System.Windows.Forms.Panel();
             this.txt_newPassWork = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.listView2 = new System.Windows.Forms.ListView();
@@ -135,8 +140,6 @@ namespace QuanLyCafe
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label30 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
@@ -153,7 +156,19 @@ namespace QuanLyCafe
             this.panel16 = new System.Windows.Forms.Panel();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
-            this.tabControl1.SuspendLayout();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.button13 = new System.Windows.Forms.Button();
+            this.drgvDV = new System.Windows.Forms.DataGridView();
+            this.ma_dich_vu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.loai_dich_vu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ten_mon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.so_luong = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label26 = new System.Windows.Forms.Label();
+            this.tabDichVu.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -161,39 +176,44 @@ namespace QuanLyCafe
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptB_monDangChon)).BeginInit();
+            this.flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel6.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel14.SuspendLayout();
             this.panel15.SuspendLayout();
             this.panel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.drgvDV)).BeginInit();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // tabDichVu
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Font = new System.Drawing.Font("Book Antiqua", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(9, 10);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(899, 572);
-            this.tabControl1.TabIndex = 0;
+            this.tabDichVu.Controls.Add(this.tabPage1);
+            this.tabDichVu.Controls.Add(this.tabPage2);
+            this.tabDichVu.Controls.Add(this.tabPage3);
+            this.tabDichVu.Controls.Add(this.tabPage4);
+            this.tabDichVu.Controls.Add(this.tabPage5);
+            this.tabDichVu.Font = new System.Drawing.Font("Book Antiqua", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabDichVu.Location = new System.Drawing.Point(9, 10);
+            this.tabDichVu.Margin = new System.Windows.Forms.Padding(2);
+            this.tabDichVu.Name = "tabDichVu";
+            this.tabDichVu.SelectedIndex = 0;
+            this.tabDichVu.Size = new System.Drawing.Size(907, 572);
+            this.tabDichVu.TabIndex = 0;
             // 
             // tabPage1
             // 
@@ -215,7 +235,7 @@ namespace QuanLyCafe
             this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage1.Size = new System.Drawing.Size(891, 535);
+            this.tabPage1.Size = new System.Drawing.Size(899, 535);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Quản lý máy";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -376,27 +396,28 @@ namespace QuanLyCafe
             this.flp_Talble.Location = new System.Drawing.Point(4, 27);
             this.flp_Talble.Margin = new System.Windows.Forms.Padding(2);
             this.flp_Talble.Name = "flp_Talble";
-            this.flp_Talble.Size = new System.Drawing.Size(431, 478);
+            this.flp_Talble.Size = new System.Drawing.Size(422, 478);
             this.flp_Talble.TabIndex = 20;
+            this.flp_Talble.Paint += new System.Windows.Forms.PaintEventHandler(this.flp_Talble_Paint);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel2.Controls.Add(this.textBox13);
+            this.panel2.Controls.Add(this.txtTrangThai);
             this.panel2.Controls.Add(this.label25);
-            this.panel2.Controls.Add(this.textBox11);
+            this.panel2.Controls.Add(this.txtUuDai);
             this.panel2.Controls.Add(this.button10);
             this.panel2.Controls.Add(this.label21);
             this.panel2.Controls.Add(this.label22);
-            this.panel2.Controls.Add(this.textBox6);
+            this.panel2.Controls.Add(this.txtThanhTien);
             this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.textBox5);
+            this.panel2.Controls.Add(this.txtDonGia);
             this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.textBox4);
+            this.panel2.Controls.Add(this.txtSoGioChoi);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.textBox3);
+            this.panel2.Controls.Add(this.txtGioBatDau);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.txtMaMay);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.txt_priceMonDangChon);
             this.panel2.Location = new System.Drawing.Point(462, 106);
@@ -405,13 +426,13 @@ namespace QuanLyCafe
             this.panel2.Size = new System.Drawing.Size(409, 344);
             this.panel2.TabIndex = 18;
             // 
-            // textBox13
+            // txtTrangThai
             // 
-            this.textBox13.Location = new System.Drawing.Point(159, 62);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(226, 32);
-            this.textBox13.TabIndex = 25;
+            this.txtTrangThai.Location = new System.Drawing.Point(159, 62);
+            this.txtTrangThai.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTrangThai.Name = "txtTrangThai";
+            this.txtTrangThai.Size = new System.Drawing.Size(226, 32);
+            this.txtTrangThai.TabIndex = 25;
             // 
             // label25
             // 
@@ -423,13 +444,13 @@ namespace QuanLyCafe
             this.label25.TabIndex = 24;
             this.label25.Text = "Trạng thái";
             // 
-            // textBox11
+            // txtUuDai
             // 
-            this.textBox11.Location = new System.Drawing.Point(256, 284);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(129, 32);
-            this.textBox11.TabIndex = 23;
+            this.txtUuDai.Location = new System.Drawing.Point(256, 284);
+            this.txtUuDai.Margin = new System.Windows.Forms.Padding(2);
+            this.txtUuDai.Name = "txtUuDai";
+            this.txtUuDai.Size = new System.Drawing.Size(129, 32);
+            this.txtUuDai.TabIndex = 23;
             // 
             // button10
             // 
@@ -460,13 +481,13 @@ namespace QuanLyCafe
             this.label22.Size = new System.Drawing.Size(0, 24);
             this.label22.TabIndex = 20;
             // 
-            // textBox6
+            // txtThanhTien
             // 
-            this.textBox6.Location = new System.Drawing.Point(159, 243);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(226, 32);
-            this.textBox6.TabIndex = 19;
+            this.txtThanhTien.Location = new System.Drawing.Point(159, 243);
+            this.txtThanhTien.Margin = new System.Windows.Forms.Padding(2);
+            this.txtThanhTien.Name = "txtThanhTien";
+            this.txtThanhTien.Size = new System.Drawing.Size(226, 32);
+            this.txtThanhTien.TabIndex = 19;
             // 
             // label6
             // 
@@ -478,13 +499,13 @@ namespace QuanLyCafe
             this.label6.TabIndex = 18;
             this.label6.Text = "Thành tiền";
             // 
-            // textBox5
+            // txtDonGia
             // 
-            this.textBox5.Location = new System.Drawing.Point(159, 199);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(226, 32);
-            this.textBox5.TabIndex = 17;
+            this.txtDonGia.Location = new System.Drawing.Point(159, 199);
+            this.txtDonGia.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDonGia.Name = "txtDonGia";
+            this.txtDonGia.Size = new System.Drawing.Size(226, 32);
+            this.txtDonGia.TabIndex = 17;
             // 
             // label5
             // 
@@ -496,13 +517,13 @@ namespace QuanLyCafe
             this.label5.TabIndex = 16;
             this.label5.Text = "Đơn giá";
             // 
-            // textBox4
+            // txtSoGioChoi
             // 
-            this.textBox4.Location = new System.Drawing.Point(159, 152);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(226, 32);
-            this.textBox4.TabIndex = 15;
+            this.txtSoGioChoi.Location = new System.Drawing.Point(159, 152);
+            this.txtSoGioChoi.Margin = new System.Windows.Forms.Padding(2);
+            this.txtSoGioChoi.Name = "txtSoGioChoi";
+            this.txtSoGioChoi.Size = new System.Drawing.Size(226, 32);
+            this.txtSoGioChoi.TabIndex = 15;
             // 
             // label4
             // 
@@ -514,13 +535,13 @@ namespace QuanLyCafe
             this.label4.TabIndex = 14;
             this.label4.Text = "Số giờ chơi";
             // 
-            // textBox3
+            // txtGioBatDau
             // 
-            this.textBox3.Location = new System.Drawing.Point(159, 105);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(226, 32);
-            this.textBox3.TabIndex = 13;
+            this.txtGioBatDau.Location = new System.Drawing.Point(159, 105);
+            this.txtGioBatDau.Margin = new System.Windows.Forms.Padding(2);
+            this.txtGioBatDau.Name = "txtGioBatDau";
+            this.txtGioBatDau.Size = new System.Drawing.Size(226, 32);
+            this.txtGioBatDau.TabIndex = 13;
             // 
             // label3
             // 
@@ -532,13 +553,13 @@ namespace QuanLyCafe
             this.label3.TabIndex = 12;
             this.label3.Text = "Giờ bắt đầu";
             // 
-            // textBox2
+            // txtMaMay
             // 
-            this.textBox2.Location = new System.Drawing.Point(159, 17);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(226, 32);
-            this.textBox2.TabIndex = 11;
+            this.txtMaMay.Location = new System.Drawing.Point(159, 17);
+            this.txtMaMay.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMaMay.Name = "txtMaMay";
+            this.txtMaMay.Size = new System.Drawing.Size(226, 32);
+            this.txtMaMay.TabIndex = 11;
             // 
             // label2
             // 
@@ -582,7 +603,7 @@ namespace QuanLyCafe
             this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage2.Size = new System.Drawing.Size(891, 535);
+            this.tabPage2.Size = new System.Drawing.Size(899, 535);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Quản lý thực đơn";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -851,11 +872,53 @@ namespace QuanLyCafe
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.flowLayoutPanel1.BackgroundImage = global::QuanLyCafe.Properties.Resources.Picture31;
             this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.flowLayoutPanel1.Controls.Add(this.dataGridView1);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(4, 22);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(431, 478);
             this.flowLayoutPanel1.TabIndex = 20;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4});
+            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(334, 197);
+            this.dataGridView1.TabIndex = 28;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "ma_may";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Mã máy";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "loai_may";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Loại máy";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "gia_tien_mot_gio";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Giá tiền một giờ";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 130;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "trang_thai";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Trạng thái";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 150;
             // 
             // tabPage3
             // 
@@ -866,8 +929,6 @@ namespace QuanLyCafe
             this.tabPage3.Controls.Add(this.label20);
             this.tabPage3.Controls.Add(this.label19);
             this.tabPage3.Controls.Add(this.label18);
-            this.tabPage3.Controls.Add(this.pictureBox2);
-            this.tabPage3.Controls.Add(this.pictureBox1);
             this.tabPage3.Controls.Add(this.panel6);
             this.tabPage3.Controls.Add(this.panel3);
             this.tabPage3.Controls.Add(this.panel5);
@@ -876,10 +937,12 @@ namespace QuanLyCafe
             this.tabPage3.Controls.Add(this.button9);
             this.tabPage3.Controls.Add(this.panel7);
             this.tabPage3.Controls.Add(this.panel8);
+            this.tabPage3.Controls.Add(this.pictureBox2);
+            this.tabPage3.Controls.Add(this.pictureBox1);
             this.tabPage3.Location = new System.Drawing.Point(4, 33);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(891, 535);
+            this.tabPage3.Size = new System.Drawing.Size(899, 535);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Nạp Tiền";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -1026,28 +1089,6 @@ namespace QuanLyCafe
             this.label18.Size = new System.Drawing.Size(92, 24);
             this.label18.TabIndex = 23;
             this.label18.Text = "Tìm kiếm:";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::QuanLyCafe.Properties.Resources.Picture31;
-            this.pictureBox2.Location = new System.Drawing.Point(258, 48);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(51, 51);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 22;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::QuanLyCafe.Properties.Resources.Picture31;
-            this.pictureBox1.Location = new System.Drawing.Point(584, 47);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(51, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
             // 
             // panel6
             // 
@@ -1271,6 +1312,28 @@ namespace QuanLyCafe
             this.label14.TabIndex = 0;
             this.label14.Text = "Số Tiền Còn Lại:";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::QuanLyCafe.Properties.Resources.Picture31;
+            this.pictureBox2.Location = new System.Drawing.Point(258, 48);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(51, 51);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 22;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::QuanLyCafe.Properties.Resources.Picture31;
+            this.pictureBox1.Location = new System.Drawing.Point(584, 47);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(51, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
             // tabPage4
             // 
             this.tabPage4.Controls.Add(this.comboBox4);
@@ -1279,8 +1342,6 @@ namespace QuanLyCafe
             this.tabPage4.Controls.Add(this.label27);
             this.tabPage4.Controls.Add(this.label28);
             this.tabPage4.Controls.Add(this.label29);
-            this.tabPage4.Controls.Add(this.pictureBox3);
-            this.tabPage4.Controls.Add(this.pictureBox4);
             this.tabPage4.Controls.Add(this.panel11);
             this.tabPage4.Controls.Add(this.panel12);
             this.tabPage4.Controls.Add(this.panel14);
@@ -1288,10 +1349,12 @@ namespace QuanLyCafe
             this.tabPage4.Controls.Add(this.button12);
             this.tabPage4.Controls.Add(this.panel15);
             this.tabPage4.Controls.Add(this.panel16);
+            this.tabPage4.Controls.Add(this.pictureBox3);
+            this.tabPage4.Controls.Add(this.pictureBox4);
             this.tabPage4.Location = new System.Drawing.Point(4, 33);
             this.tabPage4.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(891, 535);
+            this.tabPage4.Size = new System.Drawing.Size(899, 535);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Ưu đãi";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -1391,28 +1454,6 @@ namespace QuanLyCafe
             this.label29.Size = new System.Drawing.Size(92, 24);
             this.label29.TabIndex = 40;
             this.label29.Text = "Tìm kiếm:";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::QuanLyCafe.Properties.Resources.Picture31;
-            this.pictureBox3.Location = new System.Drawing.Point(290, 32);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(51, 51);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 39;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::QuanLyCafe.Properties.Resources.Picture31;
-            this.pictureBox4.Location = new System.Drawing.Point(616, 31);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(51, 51);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 38;
-            this.pictureBox4.TabStop = false;
             // 
             // panel11
             // 
@@ -1601,17 +1642,133 @@ namespace QuanLyCafe
             this.label35.TabIndex = 0;
             this.label35.Text = "Ngày Áp Dụng:";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::QuanLyCafe.Properties.Resources.Picture31;
+            this.pictureBox3.Location = new System.Drawing.Point(290, 32);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(51, 51);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 39;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::QuanLyCafe.Properties.Resources.Picture31;
+            this.pictureBox4.Location = new System.Drawing.Point(616, 31);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(51, 51);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 38;
+            this.pictureBox4.TabStop = false;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Controls.Add(this.button13);
+            this.tabPage5.Controls.Add(this.drgvDV);
+            this.tabPage5.Controls.Add(this.label26);
+            this.tabPage5.Location = new System.Drawing.Point(4, 33);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(899, 535);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "tabPage5";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            this.tabPage5.Click += new System.EventHandler(this.tabPage5_Click);
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.Brown;
+            this.button13.Font = new System.Drawing.Font("Tw Cen MT", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.ForeColor = System.Drawing.Color.White;
+            this.button13.Location = new System.Drawing.Point(26, 51);
+            this.button13.Margin = new System.Windows.Forms.Padding(2);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(123, 38);
+            this.button13.TabIndex = 13;
+            this.button13.Text = "Xem danh sách ";
+            this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // drgvDV
+            // 
+            this.drgvDV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.drgvDV.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.drgvDV.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.drgvDV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.drgvDV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ma_dich_vu,
+            this.loai_dich_vu,
+            this.ten_mon,
+            this.gia,
+            this.so_luong,
+            this.id});
+            this.drgvDV.Location = new System.Drawing.Point(6, 136);
+            this.drgvDV.Name = "drgvDV";
+            this.drgvDV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.drgvDV.Size = new System.Drawing.Size(882, 332);
+            this.drgvDV.TabIndex = 12;
+            // 
+            // ma_dich_vu
+            // 
+            this.ma_dich_vu.DataPropertyName = "ma_dich_vu";
+            this.ma_dich_vu.HeaderText = "Mã DV";
+            this.ma_dich_vu.Name = "ma_dich_vu";
+            // 
+            // loai_dich_vu
+            // 
+            this.loai_dich_vu.DataPropertyName = "loai_dich_vu";
+            this.loai_dich_vu.HeaderText = "Loại DV";
+            this.loai_dich_vu.Name = "loai_dich_vu";
+            // 
+            // ten_mon
+            // 
+            this.ten_mon.DataPropertyName = "ten_mon";
+            this.ten_mon.HeaderText = "Tên món";
+            this.ten_mon.Name = "ten_mon";
+            // 
+            // gia
+            // 
+            this.gia.DataPropertyName = "gia";
+            this.gia.HeaderText = "Giá";
+            this.gia.Name = "gia";
+            // 
+            // so_luong
+            // 
+            this.so_luong.DataPropertyName = "so_luong";
+            this.so_luong.HeaderText = "Số lượng";
+            this.so_luong.Name = "so_luong";
+            // 
+            // id
+            // 
+            this.id.DataPropertyName = "id";
+            this.id.HeaderText = "ID";
+            this.id.Name = "id";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.Red;
+            this.label26.Location = new System.Drawing.Point(21, 20);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(139, 29);
+            this.label26.TabIndex = 11;
+            this.label26.Text = "Gọi Dịch Vụ";
+            // 
             // fQuanLyMay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(927, 592);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tabDichVu);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "fQuanLyMay";
             this.Text = "fQuanLyMay";
             this.Load += new System.EventHandler(this.fQuanLyMay_Load);
-            this.tabControl1.ResumeLayout(false);
+            this.tabDichVu.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -1623,12 +1780,12 @@ namespace QuanLyCafe
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptB_monDangChon)).EndInit();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -1641,10 +1798,10 @@ namespace QuanLyCafe
             this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             this.panel12.ResumeLayout(false);
@@ -1655,13 +1812,18 @@ namespace QuanLyCafe
             this.panel15.PerformLayout();
             this.panel16.ResumeLayout(false);
             this.panel16.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.drgvDV)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tabDichVu;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TextBox textBox1;
@@ -1676,15 +1838,15 @@ namespace QuanLyCafe
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtThanhTien;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtDonGia;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtSoGioChoi;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtGioBatDau;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtMaMay;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label txt_priceMonDangChon;
         private System.Windows.Forms.NumericUpDown nm_foodCount;
@@ -1745,7 +1907,7 @@ namespace QuanLyCafe
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.TextBox txt_newPassWork;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox txtUuDai;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
@@ -1782,8 +1944,23 @@ namespace QuanLyCafe
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.TextBox textBox20;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox txtTrangThai;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.DataGridView drgvDV;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ma_dich_vu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn loai_dich_vu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ten_mon;
+        private System.Windows.Forms.DataGridViewTextBoxColumn gia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn so_luong;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
     }
 }

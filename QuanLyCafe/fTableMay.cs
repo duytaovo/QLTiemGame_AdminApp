@@ -28,10 +28,6 @@ namespace QuanLyCafe
         {
 
             try { 
-      /*          DataTable dataDisplay = dbMonHoc.LayMonHocs();
-                dtMonHoc = dataDisplay;
-                dtgvMonHoc.DataSource = dtMonHoc;*/
-
                 mays = db.LayMay();
                 dt_mays = mays;
                 dataGridViewMay.DataSource = dt_mays;
@@ -97,13 +93,12 @@ namespace QuanLyCafe
                 {
                     trang_thai_may = "Bật";
                 }
-                MessageBox.Show(trang_thai_may);
                 string err = "";
                 if (!db.CapNhapTrangThaiMay(ref err, txtMaMay.Text, trang_thai_may))
                     MessageBox.Show("Lỗi :" + err);
                 else
                 {
-                    MessageBox.Show("Cập nhật thành công Thành Công");
+                    MessageBox.Show(trang_thai_may + "thành công");
                     fTableMay_Load(null, null);
                 }
             }

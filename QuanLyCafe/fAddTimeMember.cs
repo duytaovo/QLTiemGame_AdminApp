@@ -59,6 +59,7 @@ namespace QuanLyCafe
                 else
                 {
                     MessageBox.Show("Nạp tiền thành Công");
+                    btnTimKiem_Click(null, null);
                 }
             }
             catch

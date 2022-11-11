@@ -28,12 +28,27 @@ namespace QuanLyCafe.DAO
         {
             List<Table> listTable = new List<Table>();
 
-            DataTable data = DataProvider.Instance.ExecuteQuery("EXEC dbo.USP_GetTableList");
+            DataTable data = DataProvider.Instance.ExcuteQueryDataTable("Select * from XemDanhSachMay;", CommandType.Text); ;
 
             foreach (DataRow item in data.Rows)
             {
                 Table table = new Table(item);
                 listTable.Add(table);
+            }
+
+            return listTable;
+        }
+      
+        public Table LoadTableLis1(string ma_may)
+        {
+            Table listTable = new Table();
+            string query = string.Format("SELECT * FROM XemThongTinMay('{0}');", ma_may);
+            DataTable data = DataProvider.Instance.ExcuteQueryDataTable(query, CommandType.Text); 
+
+           foreach (DataRow item in data.Rows)
+            {
+                Table table = new Table(item);
+                listTable = table;
             }
 
             return listTable;
