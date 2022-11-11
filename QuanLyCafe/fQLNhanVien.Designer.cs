@@ -30,6 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fQLNhanVien));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnXemThongTinNV = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
+            this.btnXoaNV = new System.Windows.Forms.Button();
+            this.btnThemNV = new System.Windows.Forms.Button();
+            this.btnSuaNV = new System.Windows.Forms.Button();
             this.txtHoTenNV = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridViewNV = new System.Windows.Forms.DataGridView();
@@ -59,18 +64,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.cmbGioiTinhNV = new System.Windows.Forms.ComboBox();
             this.dateTimePickerNSNV = new System.Windows.Forms.DateTimePicker();
-            this.textBox19 = new System.Windows.Forms.TextBox();
             this.txtVaiTroNV = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnXemThongTinNV = new System.Windows.Forms.Button();
-            this.btnThoat = new System.Windows.Forms.Button();
-            this.btnXoaNV = new System.Windows.Forms.Button();
-            this.btnThemNV = new System.Windows.Forms.Button();
-            this.btnSuaNV = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewNV)).BeginInit();
@@ -93,6 +91,101 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Các chức năng";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // btnXemThongTinNV
+            // 
+            this.btnXemThongTinNV.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnXemThongTinNV.BackgroundImage")));
+            this.btnXemThongTinNV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnXemThongTinNV.FlatAppearance.BorderSize = 0;
+            this.btnXemThongTinNV.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnXemThongTinNV.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnXemThongTinNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXemThongTinNV.Image = global::QuanLyCafe.Properties.Resources.add_user;
+            this.btnXemThongTinNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnXemThongTinNV.Location = new System.Drawing.Point(122, 13);
+            this.btnXemThongTinNV.Name = "btnXemThongTinNV";
+            this.btnXemThongTinNV.Size = new System.Drawing.Size(124, 33);
+            this.btnXemThongTinNV.TabIndex = 6;
+            this.btnXemThongTinNV.Text = "Xem thông tin NV";
+            this.btnXemThongTinNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnXemThongTinNV.UseVisualStyleBackColor = true;
+            this.btnXemThongTinNV.Click += new System.EventHandler(this.btnXemThongTinNV_Click);
+            // 
+            // btnThoat
+            // 
+            this.btnThoat.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnThoat.BackgroundImage")));
+            this.btnThoat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnThoat.FlatAppearance.BorderSize = 0;
+            this.btnThoat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnThoat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThoat.Image = global::QuanLyCafe.Properties.Resources._1;
+            this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThoat.Location = new System.Drawing.Point(572, 13);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(80, 33);
+            this.btnThoat.TabIndex = 5;
+            this.btnThoat.Text = "Thoát ";
+            this.btnThoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            // 
+            // btnXoaNV
+            // 
+            this.btnXoaNV.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnXoaNV.BackgroundImage")));
+            this.btnXoaNV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnXoaNV.FlatAppearance.BorderSize = 0;
+            this.btnXoaNV.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnXoaNV.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnXoaNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXoaNV.Image = global::QuanLyCafe.Properties.Resources.remove_user;
+            this.btnXoaNV.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btnXoaNV.Location = new System.Drawing.Point(474, 13);
+            this.btnXoaNV.Name = "btnXoaNV";
+            this.btnXoaNV.Size = new System.Drawing.Size(80, 33);
+            this.btnXoaNV.TabIndex = 3;
+            this.btnXoaNV.Text = "Xóa   ";
+            this.btnXoaNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnXoaNV.UseVisualStyleBackColor = true;
+            this.btnXoaNV.Click += new System.EventHandler(this.btnXoaNV_Click);
+            // 
+            // btnThemNV
+            // 
+            this.btnThemNV.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnThemNV.BackgroundImage")));
+            this.btnThemNV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnThemNV.FlatAppearance.BorderSize = 0;
+            this.btnThemNV.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnThemNV.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnThemNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThemNV.Image = global::QuanLyCafe.Properties.Resources.add_user;
+            this.btnThemNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThemNV.Location = new System.Drawing.Point(272, 13);
+            this.btnThemNV.Name = "btnThemNV";
+            this.btnThemNV.Size = new System.Drawing.Size(80, 33);
+            this.btnThemNV.TabIndex = 1;
+            this.btnThemNV.Text = "Thêm ";
+            this.btnThemNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnThemNV.UseVisualStyleBackColor = true;
+            this.btnThemNV.Click += new System.EventHandler(this.btnThemNV_Click);
+            // 
+            // btnSuaNV
+            // 
+            this.btnSuaNV.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSuaNV.BackgroundImage")));
+            this.btnSuaNV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSuaNV.FlatAppearance.BorderSize = 0;
+            this.btnSuaNV.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnSuaNV.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnSuaNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSuaNV.Image = global::QuanLyCafe.Properties.Resources.edit_user;
+            this.btnSuaNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSuaNV.Location = new System.Drawing.Point(373, 13);
+            this.btnSuaNV.Name = "btnSuaNV";
+            this.btnSuaNV.Size = new System.Drawing.Size(80, 33);
+            this.btnSuaNV.TabIndex = 2;
+            this.btnSuaNV.Text = "Sửa   ";
+            this.btnSuaNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSuaNV.UseVisualStyleBackColor = true;
+            this.btnSuaNV.Click += new System.EventHandler(this.btnSuaNV_Click);
             // 
             // txtHoTenNV
             // 
@@ -205,10 +298,8 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.cmbGioiTinhNV);
             this.groupBox1.Controls.Add(this.dateTimePickerNSNV);
-            this.groupBox1.Controls.Add(this.textBox19);
             this.groupBox1.Controls.Add(this.txtVaiTroNV);
             this.groupBox1.Controls.Add(this.txtHoTenNV);
-            this.groupBox1.Controls.Add(this.label19);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
@@ -260,7 +351,7 @@
             // 
             // txtTienLuongNV
             // 
-            this.txtTienLuongNV.Location = new System.Drawing.Point(450, 108);
+            this.txtTienLuongNV.Location = new System.Drawing.Point(488, 105);
             this.txtTienLuongNV.Name = "txtTienLuongNV";
             this.txtTienLuongNV.Size = new System.Drawing.Size(104, 21);
             this.txtTienLuongNV.TabIndex = 40;
@@ -277,7 +368,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(376, 108);
+            this.label9.Location = new System.Drawing.Point(414, 105);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(63, 15);
             this.label9.TabIndex = 40;
@@ -296,7 +387,7 @@
             // 
             // txtSoDT
             // 
-            this.txtSoDT.Location = new System.Drawing.Point(450, 33);
+            this.txtSoDT.Location = new System.Drawing.Point(488, 30);
             this.txtSoDT.Name = "txtSoDT";
             this.txtSoDT.Size = new System.Drawing.Size(104, 21);
             this.txtSoDT.TabIndex = 37;
@@ -305,7 +396,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(403, 36);
+            this.label8.Location = new System.Drawing.Point(441, 33);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(39, 15);
             this.label8.TabIndex = 36;
@@ -334,7 +425,7 @@
             // 
             this.cmbMaLuong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMaLuong.FormattingEnabled = true;
-            this.cmbMaLuong.Location = new System.Drawing.Point(450, 71);
+            this.cmbMaLuong.Location = new System.Drawing.Point(488, 68);
             this.cmbMaLuong.Name = "cmbMaLuong";
             this.cmbMaLuong.Size = new System.Drawing.Size(104, 23);
             this.cmbMaLuong.TabIndex = 33;
@@ -343,7 +434,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(381, 74);
+            this.label5.Location = new System.Drawing.Point(419, 71);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(58, 15);
             this.label5.TabIndex = 32;
@@ -371,15 +462,6 @@
             this.dateTimePickerNSNV.TabIndex = 6;
             this.dateTimePickerNSNV.ValueChanged += new System.EventHandler(this.dateTimePickerNSNV_ValueChanged);
             // 
-            // textBox19
-            // 
-            this.textBox19.Location = new System.Drawing.Point(617, 31);
-            this.textBox19.Multiline = true;
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(104, 143);
-            this.textBox19.TabIndex = 18;
-            this.textBox19.TextChanged += new System.EventHandler(this.textBox19_TextChanged);
-            // 
             // txtVaiTroNV
             // 
             this.txtVaiTroNV.Location = new System.Drawing.Point(274, 104);
@@ -387,16 +469,6 @@
             this.txtVaiTroNV.Size = new System.Drawing.Size(104, 21);
             this.txtVaiTroNV.TabIndex = 11;
             this.txtVaiTroNV.TextChanged += new System.EventHandler(this.txtVaiTroNV_TextChanged);
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(566, 36);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(45, 15);
-            this.label19.TabIndex = 0;
-            this.label19.Text = "Ghi chú";
-            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // label12
             // 
@@ -437,101 +509,6 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Họ tên";
             this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // btnXemThongTinNV
-            // 
-            this.btnXemThongTinNV.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnXemThongTinNV.BackgroundImage")));
-            this.btnXemThongTinNV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnXemThongTinNV.FlatAppearance.BorderSize = 0;
-            this.btnXemThongTinNV.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnXemThongTinNV.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnXemThongTinNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXemThongTinNV.Image = global::QuanLyCafe.Properties.Resources.add_user;
-            this.btnXemThongTinNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXemThongTinNV.Location = new System.Drawing.Point(122, 13);
-            this.btnXemThongTinNV.Name = "btnXemThongTinNV";
-            this.btnXemThongTinNV.Size = new System.Drawing.Size(124, 33);
-            this.btnXemThongTinNV.TabIndex = 6;
-            this.btnXemThongTinNV.Text = "Xem thông tin NV";
-            this.btnXemThongTinNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnXemThongTinNV.UseVisualStyleBackColor = true;
-            this.btnXemThongTinNV.Click += new System.EventHandler(this.btnXemThongTinNV_Click);
-            // 
-            // btnThoat
-            // 
-            this.btnThoat.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnThoat.BackgroundImage")));
-            this.btnThoat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnThoat.FlatAppearance.BorderSize = 0;
-            this.btnThoat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnThoat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThoat.Image = global::QuanLyCafe.Properties.Resources._1;
-            this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThoat.Location = new System.Drawing.Point(572, 13);
-            this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(80, 33);
-            this.btnThoat.TabIndex = 5;
-            this.btnThoat.Text = "Thoát ";
-            this.btnThoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnThoat.UseVisualStyleBackColor = true;
-            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
-            // 
-            // btnXoaNV
-            // 
-            this.btnXoaNV.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnXoaNV.BackgroundImage")));
-            this.btnXoaNV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnXoaNV.FlatAppearance.BorderSize = 0;
-            this.btnXoaNV.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnXoaNV.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnXoaNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXoaNV.Image = global::QuanLyCafe.Properties.Resources.remove_user;
-            this.btnXoaNV.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.btnXoaNV.Location = new System.Drawing.Point(474, 13);
-            this.btnXoaNV.Name = "btnXoaNV";
-            this.btnXoaNV.Size = new System.Drawing.Size(80, 33);
-            this.btnXoaNV.TabIndex = 3;
-            this.btnXoaNV.Text = "Xóa   ";
-            this.btnXoaNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnXoaNV.UseVisualStyleBackColor = true;
-            this.btnXoaNV.Click += new System.EventHandler(this.btnXoaNV_Click);
-            // 
-            // btnThemNV
-            // 
-            this.btnThemNV.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnThemNV.BackgroundImage")));
-            this.btnThemNV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnThemNV.FlatAppearance.BorderSize = 0;
-            this.btnThemNV.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnThemNV.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnThemNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThemNV.Image = global::QuanLyCafe.Properties.Resources.add_user;
-            this.btnThemNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThemNV.Location = new System.Drawing.Point(272, 13);
-            this.btnThemNV.Name = "btnThemNV";
-            this.btnThemNV.Size = new System.Drawing.Size(80, 33);
-            this.btnThemNV.TabIndex = 1;
-            this.btnThemNV.Text = "Thêm ";
-            this.btnThemNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnThemNV.UseVisualStyleBackColor = true;
-            this.btnThemNV.Click += new System.EventHandler(this.btnThemNV_Click);
-            // 
-            // btnSuaNV
-            // 
-            this.btnSuaNV.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSuaNV.BackgroundImage")));
-            this.btnSuaNV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSuaNV.FlatAppearance.BorderSize = 0;
-            this.btnSuaNV.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnSuaNV.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnSuaNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSuaNV.Image = global::QuanLyCafe.Properties.Resources.edit_user;
-            this.btnSuaNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSuaNV.Location = new System.Drawing.Point(373, 13);
-            this.btnSuaNV.Name = "btnSuaNV";
-            this.btnSuaNV.Size = new System.Drawing.Size(80, 33);
-            this.btnSuaNV.TabIndex = 2;
-            this.btnSuaNV.Text = "Sửa   ";
-            this.btnSuaNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSuaNV.UseVisualStyleBackColor = true;
-            this.btnSuaNV.Click += new System.EventHandler(this.btnSuaNV_Click);
             // 
             // fQLNhanVien
             // 
@@ -593,9 +570,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cmbGioiTinhNV;
         private System.Windows.Forms.DateTimePicker dateTimePickerNSNV;
-        private System.Windows.Forms.TextBox textBox19;
         private System.Windows.Forms.TextBox txtVaiTroNV;
-        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;

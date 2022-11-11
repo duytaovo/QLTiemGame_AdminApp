@@ -168,8 +168,7 @@ namespace QuanLyCafe
         {
             Table tablelist = TableDAO.Instance.LoadTableLis1(id);
             txtMaMay.Text = tablelist.MaMay;
-            txtDonGia.Text = tablelist.GiaTien.ToString();
-            txtTrangThai.Text = tablelist.Status;
+          
         }
 
         private void flp_Talble_Paint(object sender, PaintEventArgs e)

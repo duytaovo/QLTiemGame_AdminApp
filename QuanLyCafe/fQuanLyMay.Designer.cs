@@ -45,23 +45,11 @@ namespace QuanLyCafe
             this.tb_totalPrice = new System.Windows.Forms.TextBox();
             this.flp_Talble = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.txtTrangThai = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
             this.txtUuDai = new System.Windows.Forms.TextBox();
             this.button10 = new System.Windows.Forms.Button();
             this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.txtThanhTien = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtDonGia = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtSoGioChoi = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtGioBatDau = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.txtMaMay = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txt_priceMonDangChon = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -403,50 +391,20 @@ namespace QuanLyCafe
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel2.Controls.Add(this.txtTrangThai);
-            this.panel2.Controls.Add(this.label25);
             this.panel2.Controls.Add(this.txtUuDai);
             this.panel2.Controls.Add(this.button10);
             this.panel2.Controls.Add(this.label21);
-            this.panel2.Controls.Add(this.label22);
-            this.panel2.Controls.Add(this.txtThanhTien);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.txtDonGia);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.txtSoGioChoi);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.txtGioBatDau);
-            this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.txtMaMay);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.txt_priceMonDangChon);
             this.panel2.Location = new System.Drawing.Point(462, 106);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(409, 344);
             this.panel2.TabIndex = 18;
             // 
-            // txtTrangThai
-            // 
-            this.txtTrangThai.Location = new System.Drawing.Point(159, 62);
-            this.txtTrangThai.Margin = new System.Windows.Forms.Padding(2);
-            this.txtTrangThai.Name = "txtTrangThai";
-            this.txtTrangThai.Size = new System.Drawing.Size(226, 32);
-            this.txtTrangThai.TabIndex = 25;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(42, 62);
-            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(104, 24);
-            this.label25.TabIndex = 24;
-            this.label25.Text = "Trạng thái";
-            // 
             // txtUuDai
             // 
-            this.txtUuDai.Location = new System.Drawing.Point(256, 284);
+            this.txtUuDai.Location = new System.Drawing.Point(256, 75);
             this.txtUuDai.Margin = new System.Windows.Forms.Padding(2);
             this.txtUuDai.Name = "txtUuDai";
             this.txtUuDai.Size = new System.Drawing.Size(129, 32);
@@ -454,7 +412,7 @@ namespace QuanLyCafe
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(159, 286);
+            this.button10.Location = new System.Drawing.Point(159, 75);
             this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(82, 29);
@@ -465,93 +423,12 @@ namespace QuanLyCafe
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(42, 286);
+            this.label21.Location = new System.Drawing.Point(58, 77);
             this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(68, 24);
             this.label21.TabIndex = 21;
             this.label21.Text = "Ưu đãi";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(302, 266);
-            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(0, 24);
-            this.label22.TabIndex = 20;
-            // 
-            // txtThanhTien
-            // 
-            this.txtThanhTien.Location = new System.Drawing.Point(159, 243);
-            this.txtThanhTien.Margin = new System.Windows.Forms.Padding(2);
-            this.txtThanhTien.Name = "txtThanhTien";
-            this.txtThanhTien.Size = new System.Drawing.Size(226, 32);
-            this.txtThanhTien.TabIndex = 19;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(42, 243);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(109, 24);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "Thành tiền";
-            // 
-            // txtDonGia
-            // 
-            this.txtDonGia.Location = new System.Drawing.Point(159, 199);
-            this.txtDonGia.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDonGia.Name = "txtDonGia";
-            this.txtDonGia.Size = new System.Drawing.Size(226, 32);
-            this.txtDonGia.TabIndex = 17;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(42, 199);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 24);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "Đơn giá";
-            // 
-            // txtSoGioChoi
-            // 
-            this.txtSoGioChoi.Location = new System.Drawing.Point(159, 152);
-            this.txtSoGioChoi.Margin = new System.Windows.Forms.Padding(2);
-            this.txtSoGioChoi.Name = "txtSoGioChoi";
-            this.txtSoGioChoi.Size = new System.Drawing.Size(226, 32);
-            this.txtSoGioChoi.TabIndex = 15;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(42, 152);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(108, 24);
-            this.label4.TabIndex = 14;
-            this.label4.Text = "Số giờ chơi";
-            // 
-            // txtGioBatDau
-            // 
-            this.txtGioBatDau.Location = new System.Drawing.Point(159, 105);
-            this.txtGioBatDau.Margin = new System.Windows.Forms.Padding(2);
-            this.txtGioBatDau.Name = "txtGioBatDau";
-            this.txtGioBatDau.Size = new System.Drawing.Size(226, 32);
-            this.txtGioBatDau.TabIndex = 13;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(42, 105);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(115, 24);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Giờ bắt đầu";
             // 
             // txtMaMay
             // 
@@ -570,15 +447,6 @@ namespace QuanLyCafe
             this.label2.Size = new System.Drawing.Size(84, 24);
             this.label2.TabIndex = 10;
             this.label2.Text = "Mã máy";
-            // 
-            // txt_priceMonDangChon
-            // 
-            this.txt_priceMonDangChon.AutoSize = true;
-            this.txt_priceMonDangChon.Location = new System.Drawing.Point(302, 223);
-            this.txt_priceMonDangChon.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.txt_priceMonDangChon.Name = "txt_priceMonDangChon";
-            this.txt_priceMonDangChon.Size = new System.Drawing.Size(0, 24);
-            this.txt_priceMonDangChon.TabIndex = 8;
             // 
             // tabPage2
             // 
@@ -1838,17 +1706,8 @@ namespace QuanLyCafe
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox txtThanhTien;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtDonGia;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtSoGioChoi;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtGioBatDau;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtMaMay;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label txt_priceMonDangChon;
         private System.Windows.Forms.NumericUpDown nm_foodCount;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Button button3;
@@ -1910,7 +1769,6 @@ namespace QuanLyCafe
         private System.Windows.Forms.TextBox txtUuDai;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.TextBox textBox12;
@@ -1944,8 +1802,6 @@ namespace QuanLyCafe
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.TextBox textBox20;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.TextBox txtTrangThai;
-        private System.Windows.Forms.Label label25;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
