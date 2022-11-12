@@ -74,3 +74,8 @@ D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame_AdminApp\QuanLyTiemGame\obj\Debug\dje
 D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame_AdminApp\QuanLyTiemGame\obj\Debug\QuanLyTiemGame.csproj.CopyComplete
 D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame_AdminApp\QuanLyTiemGame\obj\Debug\QuanLyTiemGame.exe
 D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame_AdminApp\QuanLyTiemGame\obj\Debug\QuanLyTiemGame.pdb
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame_AdminApp\QuanLyTiemGame\obj\Debug\QuanLyTiemGame.fBill.resources
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame_AdminApp\QuanLyTiemGame\bin\Debug\EntityFramework.dll
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame_AdminApp\QuanLyTiemGame\bin\Debug\EntityFramework.SqlServer.dll
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame_AdminApp\QuanLyTiemGame\bin\Debug\EntityFramework.xml
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame_AdminApp\QuanLyTiemGame\bin\Debug\EntityFramework.SqlServer.xml

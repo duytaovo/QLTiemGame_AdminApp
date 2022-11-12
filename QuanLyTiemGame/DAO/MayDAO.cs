@@ -23,6 +23,18 @@ namespace QuanLyTiemGame.DAO
             return db.ExcuteQuerryDataSet(query, CommandType.Text,null);
         }
 
+        public DataSet LayTienMay(string ma_may)
+        {
+            string query = string.Format("SELECT * FROM TinhTienMay('{0}');", ma_may);
+            return db.ExcuteQuerryDataSet(query, CommandType.Text, null);
+        }
+
+        public DataSet LayTienDichVu(string ma_may)
+        {
+            string query = string.Format("SELECT * FROM TinhTienDichVu('{0}');", ma_may);
+            return db.ExcuteQuerryDataSet(query, CommandType.Text, null);
+        }
+
         public bool CapNhapTrangThaiMay(ref string err, string ma_may, string trang_thai)
         {
             return db.MyExecuteNonQuery("proc_SuaTrangThaiMay", CommandType.StoredProcedure, ref err,

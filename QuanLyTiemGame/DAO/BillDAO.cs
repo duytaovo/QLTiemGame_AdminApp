@@ -58,5 +58,7 @@ namespace QuanLyTiemGame.DAO
         {
             return DataProvider.Instance.ExecuteQuery("EXEC USP_GetListBillByDate @checkIn , @checkOut", new object[] { checkIn, checkOut });
         }
+
+       
     }
 }

@@ -29,6 +29,7 @@ namespace QuanLyTiemGame
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.tabDichVu = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.textBox15 = new System.Windows.Forms.TextBox();
@@ -38,18 +39,17 @@ namespace QuanLyTiemGame
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btn_BatMay = new System.Windows.Forms.Button();
             this.cb_Category = new System.Windows.Forms.ComboBox();
-            this.btn_check = new System.Windows.Forms.Button();
-            this.btn_swicthTable = new System.Windows.Forms.Button();
-            this.cb_switchTable = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.tb_totalPrice = new System.Windows.Forms.TextBox();
-            this.flp_Talble = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.txtUuDai = new System.Windows.Forms.TextBox();
+            this.cmbUuDai = new System.Windows.Forms.ComboBox();
             this.button10 = new System.Windows.Forms.Button();
             this.label21 = new System.Windows.Forms.Label();
             this.txtMaMay = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btn_swicthTable = new System.Windows.Forms.Button();
+            this.cb_switchTable = new System.Windows.Forms.ComboBox();
+            this.btn_check = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.tb_totalPrice = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -73,14 +73,7 @@ namespace QuanLyTiemGame
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btn_Menu = new System.Windows.Forms.Button();
-            this.ptB_monDangChon = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.panel9 = new System.Windows.Forms.Panel();
             this.label24 = new System.Windows.Forms.Label();
@@ -115,8 +108,6 @@ namespace QuanLyTiemGame
             this.panel8 = new System.Windows.Forms.Panel();
             this.txt_newPassWork = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.listView2 = new System.Windows.Forms.ListView();
@@ -144,8 +135,6 @@ namespace QuanLyTiemGame
             this.panel16 = new System.Windows.Forms.Panel();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.button13 = new System.Windows.Forms.Button();
             this.drgvDV = new System.Windows.Forms.DataGridView();
@@ -156,6 +145,20 @@ namespace QuanLyTiemGame
             this.so_luong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label26 = new System.Windows.Forms.Label();
+            this.flp_Talble = new System.Windows.Forms.FlowLayoutPanel();
+            this.ptB_monDangChon = new System.Windows.Forms.PictureBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.qlTiemGameDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qlTiemGameDataSet1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabDichVu.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -163,9 +166,6 @@ namespace QuanLyTiemGame
             ((System.ComponentModel.ISupportInitialize)(this.nm_foodCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptB_monDangChon)).BeginInit();
-            this.flowLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -174,18 +174,23 @@ namespace QuanLyTiemGame
             this.panel4.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel14.SuspendLayout();
             this.panel15.SuspendLayout();
             this.panel16.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.drgvDV)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptB_monDangChon)).BeginInit();
+            this.flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qlTiemGameDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qlTiemGameDataSet1BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // tabDichVu
@@ -212,11 +217,6 @@ namespace QuanLyTiemGame
             this.tabPage1.Controls.Add(this.textBox1);
             this.tabPage1.Controls.Add(this.btn_BatMay);
             this.tabPage1.Controls.Add(this.cb_Category);
-            this.tabPage1.Controls.Add(this.btn_check);
-            this.tabPage1.Controls.Add(this.btn_swicthTable);
-            this.tabPage1.Controls.Add(this.cb_switchTable);
-            this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Controls.Add(this.tb_totalPrice);
             this.tabPage1.Controls.Add(this.flp_Talble);
             this.tabPage1.Controls.Add(this.panel2);
             this.tabPage1.Location = new System.Drawing.Point(4, 33);
@@ -313,109 +313,46 @@ namespace QuanLyTiemGame
             this.cb_Category.Size = new System.Drawing.Size(141, 28);
             this.cb_Category.TabIndex = 8;
             // 
-            // btn_check
-            // 
-            this.btn_check.BackColor = System.Drawing.Color.Brown;
-            this.btn_check.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_check.ForeColor = System.Drawing.Color.White;
-            this.btn_check.Location = new System.Drawing.Point(782, 456);
-            this.btn_check.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_check.Name = "btn_check";
-            this.btn_check.Size = new System.Drawing.Size(88, 67);
-            this.btn_check.TabIndex = 12;
-            this.btn_check.Text = "Thanh toán";
-            this.btn_check.UseVisualStyleBackColor = false;
-            // 
-            // btn_swicthTable
-            // 
-            this.btn_swicthTable.BackColor = System.Drawing.Color.Brown;
-            this.btn_swicthTable.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_swicthTable.ForeColor = System.Drawing.Color.White;
-            this.btn_swicthTable.Location = new System.Drawing.Point(508, 456);
-            this.btn_swicthTable.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_swicthTable.Name = "btn_swicthTable";
-            this.btn_swicthTable.Size = new System.Drawing.Size(86, 29);
-            this.btn_swicthTable.TabIndex = 13;
-            this.btn_swicthTable.Text = "Chuyển máy";
-            this.btn_swicthTable.UseVisualStyleBackColor = false;
-            // 
-            // cb_switchTable
-            // 
-            this.cb_switchTable.FormattingEnabled = true;
-            this.cb_switchTable.Items.AddRange(new object[] {
-            "Bật",
-            "Tắt"});
-            this.cb_switchTable.Location = new System.Drawing.Point(509, 490);
-            this.cb_switchTable.Margin = new System.Windows.Forms.Padding(2);
-            this.cb_switchTable.Name = "cb_switchTable";
-            this.cb_switchTable.Size = new System.Drawing.Size(85, 32);
-            this.cb_switchTable.TabIndex = 9;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Brown;
-            this.button1.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(651, 456);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 29);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Tổng";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // tb_totalPrice
-            // 
-            this.tb_totalPrice.Location = new System.Drawing.Point(651, 490);
-            this.tb_totalPrice.Margin = new System.Windows.Forms.Padding(2);
-            this.tb_totalPrice.Name = "tb_totalPrice";
-            this.tb_totalPrice.ReadOnly = true;
-            this.tb_totalPrice.Size = new System.Drawing.Size(86, 32);
-            this.tb_totalPrice.TabIndex = 19;
-            this.tb_totalPrice.Text = "0";
-            this.tb_totalPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // flp_Talble
-            // 
-            this.flp_Talble.AutoScroll = true;
-            this.flp_Talble.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.flp_Talble.BackgroundImage = global::QuanLyTiemGame.Properties.Resources.Picture31;
-            this.flp_Talble.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flp_Talble.Location = new System.Drawing.Point(4, 27);
-            this.flp_Talble.Margin = new System.Windows.Forms.Padding(2);
-            this.flp_Talble.Name = "flp_Talble";
-            this.flp_Talble.Size = new System.Drawing.Size(422, 478);
-            this.flp_Talble.TabIndex = 20;
-            this.flp_Talble.Paint += new System.Windows.Forms.PaintEventHandler(this.flp_Talble_Paint);
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel2.Controls.Add(this.txtUuDai);
+            this.panel2.Controls.Add(this.cmbUuDai);
             this.panel2.Controls.Add(this.button10);
             this.panel2.Controls.Add(this.label21);
             this.panel2.Controls.Add(this.txtMaMay);
             this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.btn_swicthTable);
+            this.panel2.Controls.Add(this.cb_switchTable);
+            this.panel2.Controls.Add(this.btn_check);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.tb_totalPrice);
             this.panel2.Location = new System.Drawing.Point(462, 106);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(409, 344);
+            this.panel2.Size = new System.Drawing.Size(409, 250);
             this.panel2.TabIndex = 18;
             // 
-            // txtUuDai
+            // cmbUuDai
             // 
-            this.txtUuDai.Location = new System.Drawing.Point(256, 75);
-            this.txtUuDai.Margin = new System.Windows.Forms.Padding(2);
-            this.txtUuDai.Name = "txtUuDai";
-            this.txtUuDai.Size = new System.Drawing.Size(129, 32);
-            this.txtUuDai.TabIndex = 23;
+            this.cmbUuDai.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cmbUuDai.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbUuDai.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbUuDai.FormattingEnabled = true;
+            this.cmbUuDai.Items.AddRange(new object[] {
+            "None"});
+            this.cmbUuDai.Location = new System.Drawing.Point(254, 72);
+            this.cmbUuDai.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbUuDai.Name = "cmbUuDai";
+            this.cmbUuDai.Size = new System.Drawing.Size(131, 28);
+            this.cmbUuDai.TabIndex = 27;
+            this.cmbUuDai.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(159, 75);
+            this.button10.Location = new System.Drawing.Point(159, 72);
             this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(82, 29);
+            this.button10.Size = new System.Drawing.Size(91, 31);
             this.button10.TabIndex = 22;
             this.button10.Text = "Chọn Mã";
             this.button10.UseVisualStyleBackColor = true;
@@ -423,7 +360,7 @@ namespace QuanLyTiemGame
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(58, 77);
+            this.label21.Location = new System.Drawing.Point(58, 75);
             this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(68, 24);
@@ -447,6 +384,69 @@ namespace QuanLyTiemGame
             this.label2.Size = new System.Drawing.Size(84, 24);
             this.label2.TabIndex = 10;
             this.label2.Text = "Mã máy";
+            // 
+            // btn_swicthTable
+            // 
+            this.btn_swicthTable.BackColor = System.Drawing.Color.Brown;
+            this.btn_swicthTable.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_swicthTable.ForeColor = System.Drawing.Color.White;
+            this.btn_swicthTable.Location = new System.Drawing.Point(62, 137);
+            this.btn_swicthTable.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_swicthTable.Name = "btn_swicthTable";
+            this.btn_swicthTable.Size = new System.Drawing.Size(86, 46);
+            this.btn_swicthTable.TabIndex = 13;
+            this.btn_swicthTable.Text = "Chuyển máy";
+            this.btn_swicthTable.UseVisualStyleBackColor = false;
+            // 
+            // cb_switchTable
+            // 
+            this.cb_switchTable.FormattingEnabled = true;
+            this.cb_switchTable.Items.AddRange(new object[] {
+            "Bật",
+            "Tắt"});
+            this.cb_switchTable.Location = new System.Drawing.Point(63, 187);
+            this.cb_switchTable.Margin = new System.Windows.Forms.Padding(2);
+            this.cb_switchTable.Name = "cb_switchTable";
+            this.cb_switchTable.Size = new System.Drawing.Size(85, 32);
+            this.cb_switchTable.TabIndex = 9;
+            // 
+            // btn_check
+            // 
+            this.btn_check.BackColor = System.Drawing.Color.Brown;
+            this.btn_check.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_check.ForeColor = System.Drawing.Color.White;
+            this.btn_check.Location = new System.Drawing.Point(307, 137);
+            this.btn_check.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_check.Name = "btn_check";
+            this.btn_check.Size = new System.Drawing.Size(88, 48);
+            this.btn_check.TabIndex = 12;
+            this.btn_check.Text = "Thanh toán";
+            this.btn_check.UseVisualStyleBackColor = false;
+            this.btn_check.Click += new System.EventHandler(this.btn_check_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Brown;
+            this.button1.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(189, 137);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(86, 46);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Tổng";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // tb_totalPrice
+            // 
+            this.tb_totalPrice.Location = new System.Drawing.Point(189, 187);
+            this.tb_totalPrice.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_totalPrice.Name = "tb_totalPrice";
+            this.tb_totalPrice.ReadOnly = true;
+            this.tb_totalPrice.Size = new System.Drawing.Size(86, 32);
+            this.tb_totalPrice.TabIndex = 19;
+            this.tb_totalPrice.Text = "0";
+            this.tb_totalPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // tabPage2
             // 
@@ -715,16 +715,6 @@ namespace QuanLyTiemGame
             this.btn_Menu.Text = "Menu";
             this.btn_Menu.UseVisualStyleBackColor = false;
             // 
-            // ptB_monDangChon
-            // 
-            this.ptB_monDangChon.Location = new System.Drawing.Point(74, 165);
-            this.ptB_monDangChon.Margin = new System.Windows.Forms.Padding(2);
-            this.ptB_monDangChon.Name = "ptB_monDangChon";
-            this.ptB_monDangChon.Size = new System.Drawing.Size(224, 169);
-            this.ptB_monDangChon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ptB_monDangChon.TabIndex = 7;
-            this.ptB_monDangChon.TabStop = false;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -733,60 +723,6 @@ namespace QuanLyTiemGame
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(0, 24);
             this.label7.TabIndex = 8;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.flowLayoutPanel1.BackgroundImage = global::QuanLyTiemGame.Properties.Resources.Picture31;
-            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel1.Controls.Add(this.dataGridView1);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(4, 22);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(431, 478);
-            this.flowLayoutPanel1.TabIndex = 20;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4});
-            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(334, 197);
-            this.dataGridView1.TabIndex = 28;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "ma_may";
-            this.dataGridViewTextBoxColumn1.HeaderText = "Mã máy";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "loai_may";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Loại máy";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 7;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "gia_tien_mot_gio";
-            this.dataGridViewTextBoxColumn3.HeaderText = "Giá tiền một giờ";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Width = 130;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "trang_thai";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Trạng thái";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.Width = 150;
             // 
             // tabPage3
             // 
@@ -1180,28 +1116,6 @@ namespace QuanLyTiemGame
             this.label14.TabIndex = 0;
             this.label14.Text = "Số Tiền Còn Lại:";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::QuanLyTiemGame.Properties.Resources.Picture31;
-            this.pictureBox2.Location = new System.Drawing.Point(258, 48);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(51, 51);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 22;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::QuanLyTiemGame.Properties.Resources.Picture31;
-            this.pictureBox1.Location = new System.Drawing.Point(584, 47);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(51, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
-            // 
             // tabPage4
             // 
             this.tabPage4.Controls.Add(this.comboBox4);
@@ -1510,28 +1424,6 @@ namespace QuanLyTiemGame
             this.label35.TabIndex = 0;
             this.label35.Text = "Ngày Áp Dụng:";
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::QuanLyTiemGame.Properties.Resources.Picture31;
-            this.pictureBox3.Location = new System.Drawing.Point(290, 32);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(51, 51);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 39;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::QuanLyTiemGame.Properties.Resources.Picture31;
-            this.pictureBox4.Location = new System.Drawing.Point(616, 31);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(51, 51);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 38;
-            this.pictureBox4.TabStop = false;
-            // 
             // tabPage5
             // 
             this.tabPage5.Controls.Add(this.button13);
@@ -1626,6 +1518,127 @@ namespace QuanLyTiemGame
             this.label26.TabIndex = 11;
             this.label26.Text = "Gọi Dịch Vụ";
             // 
+            // flp_Talble
+            // 
+            this.flp_Talble.AutoScroll = true;
+            this.flp_Talble.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.flp_Talble.BackgroundImage = global::QuanLyTiemGame.Properties.Resources.Picture31;
+            this.flp_Talble.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.flp_Talble.Location = new System.Drawing.Point(4, 27);
+            this.flp_Talble.Margin = new System.Windows.Forms.Padding(2);
+            this.flp_Talble.Name = "flp_Talble";
+            this.flp_Talble.Size = new System.Drawing.Size(422, 478);
+            this.flp_Talble.TabIndex = 20;
+            this.flp_Talble.Paint += new System.Windows.Forms.PaintEventHandler(this.flp_Talble_Paint);
+            // 
+            // ptB_monDangChon
+            // 
+            this.ptB_monDangChon.Location = new System.Drawing.Point(74, 165);
+            this.ptB_monDangChon.Margin = new System.Windows.Forms.Padding(2);
+            this.ptB_monDangChon.Name = "ptB_monDangChon";
+            this.ptB_monDangChon.Size = new System.Drawing.Size(224, 169);
+            this.ptB_monDangChon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptB_monDangChon.TabIndex = 7;
+            this.ptB_monDangChon.TabStop = false;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.flowLayoutPanel1.BackgroundImage = global::QuanLyTiemGame.Properties.Resources.Picture31;
+            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.flowLayoutPanel1.Controls.Add(this.dataGridView1);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(4, 22);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(431, 478);
+            this.flowLayoutPanel1.TabIndex = 20;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4});
+            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(334, 197);
+            this.dataGridView1.TabIndex = 28;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "ma_may";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Mã máy";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "loai_may";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Loại máy";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 7;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "gia_tien_mot_gio";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Giá tiền một giờ";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 130;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "trang_thai";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Trạng thái";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 150;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::QuanLyTiemGame.Properties.Resources.Picture31;
+            this.pictureBox2.Location = new System.Drawing.Point(258, 48);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(51, 51);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 22;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::QuanLyTiemGame.Properties.Resources.Picture31;
+            this.pictureBox1.Location = new System.Drawing.Point(584, 47);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(51, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::QuanLyTiemGame.Properties.Resources.Picture31;
+            this.pictureBox3.Location = new System.Drawing.Point(290, 32);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(51, 51);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 39;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::QuanLyTiemGame.Properties.Resources.Picture31;
+            this.pictureBox4.Location = new System.Drawing.Point(616, 31);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(51, 51);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 38;
+            this.pictureBox4.TabStop = false;
+            // 
             // fQuanLyMay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1647,9 +1660,6 @@ namespace QuanLyTiemGame
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptB_monDangChon)).EndInit();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.panel9.ResumeLayout(false);
@@ -1666,8 +1676,6 @@ namespace QuanLyTiemGame
             this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             this.panel11.ResumeLayout(false);
@@ -1680,11 +1688,18 @@ namespace QuanLyTiemGame
             this.panel15.PerformLayout();
             this.panel16.ResumeLayout(false);
             this.panel16.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.drgvDV)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptB_monDangChon)).EndInit();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qlTiemGameDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qlTiemGameDataSet1BindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1766,7 +1781,6 @@ namespace QuanLyTiemGame
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.TextBox txt_newPassWork;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox txtUuDai;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Panel panel9;
@@ -1818,5 +1832,9 @@ namespace QuanLyTiemGame
         private System.Windows.Forms.DataGridViewTextBoxColumn gia;
         private System.Windows.Forms.DataGridViewTextBoxColumn so_luong;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
+        private System.Windows.Forms.ComboBox cmbUuDai;
+        private System.Windows.Forms.BindingSource qlTiemGameDataSetBindingSource;
+    
+        private System.Windows.Forms.BindingSource qlTiemGameDataSet1BindingSource;
     }
 }
