@@ -41,10 +41,10 @@ namespace QuanLyTiemGame
 
         private void fLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if(MessageBox.Show("Bạn có muốn thoát không?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) != System.Windows.Forms.DialogResult.OK)
+           /* if(MessageBox.Show("Bạn có muốn thoát không?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) != System.Windows.Forms.DialogResult.OK)
             {
                 e.Cancel = true;
-            }
+            }*/
         }
 
 
@@ -83,10 +83,19 @@ namespace QuanLyTiemGame
                 if (data.Read() == true)
                 {
                     MessageBox.Show("Đăng nhập thành công!");
+       
+                    this.Hide();
+          
+      
+                    fQuanLyMay f = new fQuanLyMay();
+                    f.ShowDialog();
+                    this.Show();
                 }
                 else
                 {
                     MessageBox.Show("Đăng nhập thất bại!");
+                    txtMatKhau.Text = "";
+                    txtTenDangNhap.Focus();
                 }
                 conn.Close();
             }

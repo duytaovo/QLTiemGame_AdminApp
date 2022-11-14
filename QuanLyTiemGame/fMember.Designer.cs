@@ -58,7 +58,6 @@
             this.btnXemThongTinNV.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnXemThongTinNV.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnXemThongTinNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXemThongTinNV.Image = global::QuanLyTiemGame.Properties.Resources.add_user;
             this.btnXemThongTinNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnXemThongTinNV.Location = new System.Drawing.Point(122, 13);
             this.btnXemThongTinNV.Name = "btnXemThongTinNV";
@@ -251,6 +250,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dataGridViewKhachHang);
             this.Controls.Add(this.groupBox1);

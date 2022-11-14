@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+﻿using Aspose.Words;//Thêm thư viện này (file Dll\Aspose.Word.dll)
+using Aspose.Words.Tables;
+using System;
 using System.Windows.Forms;
-using Microsoft.Reporting.WinForms;
+using ThuVienWinform.Report.AsposeWordExtension;//thêm thư viện này (File Lib\ReportExtentionMethod.cs)
 
 namespace QuanLyTiemGame
 {
@@ -20,12 +16,12 @@ namespace QuanLyTiemGame
         private void fBill_Load(object sender, EventArgs e)
         {
 
-            this.reportViewerBill.RefreshReport();
+           // this.reportViewerBill.RefreshReport();
         }
 
         private void reportViewer1_Load(object sender, EventArgs e)
         {
-            try
+          /*  try
             {
                 reportViewerBill.LocalReport.ReportEmbeddedResource = "QuanLyTiemGame.ReportBill.rdlc";
                 ReportDataSource reportDataSource = new ReportDataSource();
@@ -40,7 +36,12 @@ namespace QuanLyTiemGame
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            }
+            }*/
+        }
+
+        private void btnXuatBaoCao_Click(object sender, EventArgs e)
+        {
+        
         }
     }
 }

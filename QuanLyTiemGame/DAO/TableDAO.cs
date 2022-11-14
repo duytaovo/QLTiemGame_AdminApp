@@ -18,8 +18,8 @@ namespace QuanLyTiemGame.DAO
             private set { TableDAO.instance = value; }
         }
 
-        public static int TableWidth = 80;
-        public static int TableHeight = 80;
+        public static int TableWidth = 100;
+        public static int TableHeight = 100;
 
 
         private TableDAO() { }

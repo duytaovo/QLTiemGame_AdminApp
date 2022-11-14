@@ -100,7 +100,6 @@
             this.btnXemThongTinNV.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnXemThongTinNV.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnXemThongTinNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXemThongTinNV.Image = global::QuanLyTiemGame.Properties.Resources.add_user;
             this.btnXemThongTinNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnXemThongTinNV.Location = new System.Drawing.Point(122, 13);
             this.btnXemThongTinNV.Name = "btnXemThongTinNV";

@@ -16,7 +16,7 @@ namespace QuanLyTiemGame
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fQuanLyMay());
+            Application.Run(new fLogin());
             //List<string> strs = new List<string>();
             //strs[0] = "aaa";
             //strs[1] = "bbb";

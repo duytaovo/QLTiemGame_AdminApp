@@ -35,29 +35,25 @@
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.txtSoTienNapThem = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.txtTenDangNhap = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.txtSoTienConLai = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.dataGridViewNapTien = new System.Windows.Forms.DataGridView();
-            this.btnTimKiem = new System.Windows.Forms.Button();
             this.ma_khach_hang = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ten_dang_nhap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.so_phut_con_lai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ngay_tao_tai_khoan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtSoTienConLai = new System.Windows.Forms.TextBox();
-            this.txtSoTienNapThem = new System.Windows.Forms.TextBox();
+            this.btnTimKiem = new System.Windows.Forms.Button();
             this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -67,7 +63,7 @@
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.Brown;
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.panel9.Controls.Add(this.label24);
             this.panel9.Controls.Add(this.txtGiamGia);
             this.panel9.Controls.Add(this.label23);
@@ -147,31 +143,9 @@
             this.label18.TabIndex = 40;
             this.label18.Text = "Tìm kiếm:";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::QuanLyTiemGame.Properties.Resources.Picture31;
-            this.pictureBox2.Location = new System.Drawing.Point(237, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(51, 51);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 39;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::QuanLyTiemGame.Properties.Resources.Picture31;
-            this.pictureBox1.Location = new System.Drawing.Point(582, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(51, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 38;
-            this.pictureBox1.TabStop = false;
-            // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.Brown;
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.panel6.Controls.Add(this.label12);
             this.panel6.Location = new System.Drawing.Point(310, 12);
             this.panel6.Name = "panel6";
@@ -192,7 +166,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.Brown;
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.panel5.Controls.Add(this.txtSoTienNapThem);
             this.panel5.Controls.Add(this.label13);
             this.panel5.Location = new System.Drawing.Point(434, 228);
@@ -200,6 +174,17 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(370, 51);
             this.panel5.TabIndex = 31;
+            // 
+            // txtSoTienNapThem
+            // 
+            this.txtSoTienNapThem.BackColor = System.Drawing.Color.White;
+            this.txtSoTienNapThem.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSoTienNapThem.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoTienNapThem.Location = new System.Drawing.Point(178, 16);
+            this.txtSoTienNapThem.Margin = new System.Windows.Forms.Padding(2);
+            this.txtSoTienNapThem.Name = "txtSoTienNapThem";
+            this.txtSoTienNapThem.Size = new System.Drawing.Size(178, 21);
+            this.txtSoTienNapThem.TabIndex = 3;
             // 
             // label13
             // 
@@ -215,7 +200,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.Brown;
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.panel4.Controls.Add(this.txtTenDangNhap);
             this.panel4.Controls.Add(this.label16);
             this.panel4.Location = new System.Drawing.Point(434, 77);
@@ -263,7 +248,7 @@
             // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.Color.Brown;
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.panel8.Controls.Add(this.txtSoTienConLai);
             this.panel8.Controls.Add(this.label14);
             this.panel8.Location = new System.Drawing.Point(434, 154);
@@ -271,6 +256,17 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(370, 51);
             this.panel8.TabIndex = 34;
+            // 
+            // txtSoTienConLai
+            // 
+            this.txtSoTienConLai.BackColor = System.Drawing.Color.White;
+            this.txtSoTienConLai.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSoTienConLai.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoTienConLai.Location = new System.Drawing.Point(178, 16);
+            this.txtSoTienConLai.Margin = new System.Windows.Forms.Padding(2);
+            this.txtSoTienConLai.Name = "txtSoTienConLai";
+            this.txtSoTienConLai.Size = new System.Drawing.Size(178, 21);
+            this.txtSoTienConLai.TabIndex = 2;
             // 
             // label14
             // 
@@ -297,20 +293,6 @@
             this.dataGridViewNapTien.Size = new System.Drawing.Size(394, 282);
             this.dataGridViewNapTien.TabIndex = 47;
             // 
-            // btnTimKiem
-            // 
-            this.btnTimKiem.BackColor = System.Drawing.Color.White;
-            this.btnTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimKiem.ForeColor = System.Drawing.Color.Brown;
-            this.btnTimKiem.Location = new System.Drawing.Point(347, 105);
-            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(2);
-            this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(63, 33);
-            this.btnTimKiem.TabIndex = 48;
-            this.btnTimKiem.Text = "Tìm";
-            this.btnTimKiem.UseVisualStyleBackColor = false;
-            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
-            // 
             // ma_khach_hang
             // 
             this.ma_khach_hang.DataPropertyName = "ma_khach_hang";
@@ -336,27 +318,19 @@
             this.ngay_tao_tai_khoan.HeaderText = "Ngày tạo tài khoản";
             this.ngay_tao_tai_khoan.Name = "ngay_tao_tai_khoan";
             // 
-            // txtSoTienConLai
+            // btnTimKiem
             // 
-            this.txtSoTienConLai.BackColor = System.Drawing.Color.White;
-            this.txtSoTienConLai.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSoTienConLai.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoTienConLai.Location = new System.Drawing.Point(178, 16);
-            this.txtSoTienConLai.Margin = new System.Windows.Forms.Padding(2);
-            this.txtSoTienConLai.Name = "txtSoTienConLai";
-            this.txtSoTienConLai.Size = new System.Drawing.Size(178, 21);
-            this.txtSoTienConLai.TabIndex = 2;
-            // 
-            // txtSoTienNapThem
-            // 
-            this.txtSoTienNapThem.BackColor = System.Drawing.Color.White;
-            this.txtSoTienNapThem.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSoTienNapThem.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoTienNapThem.Location = new System.Drawing.Point(178, 16);
-            this.txtSoTienNapThem.Margin = new System.Windows.Forms.Padding(2);
-            this.txtSoTienNapThem.Name = "txtSoTienNapThem";
-            this.txtSoTienNapThem.Size = new System.Drawing.Size(178, 21);
-            this.txtSoTienNapThem.TabIndex = 3;
+            this.btnTimKiem.BackColor = System.Drawing.Color.White;
+            this.btnTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimKiem.ForeColor = System.Drawing.Color.Brown;
+            this.btnTimKiem.Location = new System.Drawing.Point(347, 105);
+            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(2);
+            this.btnTimKiem.Name = "btnTimKiem";
+            this.btnTimKiem.Size = new System.Drawing.Size(63, 33);
+            this.btnTimKiem.TabIndex = 48;
+            this.btnTimKiem.Text = "Tìm";
+            this.btnTimKiem.UseVisualStyleBackColor = false;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // fAddTimeMember
             // 
@@ -369,8 +343,6 @@
             this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
@@ -381,8 +353,6 @@
             this.Text = "fAddTimeMember";
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
@@ -406,8 +376,6 @@
         private System.Windows.Forms.TextBox txtTimKiem;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel5;

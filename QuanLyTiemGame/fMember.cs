@@ -50,14 +50,24 @@ namespace QuanLyTiemGame
         {
             try
             {
-                string err = "";
-                if (!db.ThemKhachHang(ref err, txtTenDangNhap.Text, txtMatKhau.Text))
-                    MessageBox.Show("Lỗi :" + err);
-                else
-
+                if(txtTenDangNhap.Text == "" && txtMatKhau.Text == "")
                 {
-                    MessageBox.Show("Thêm Khach Hàng Thành Công");
+                    MessageBox.Show("Vui lòng nhập thông tin");
+                    txtTenDangNhap.Focus();
                 }
+                else
+                {
+                    string err = "";
+                    if (!db.ThemKhachHang(ref err, txtTenDangNhap.Text, txtMatKhau.Text))
+                        MessageBox.Show("Lỗi :" + err);
+                    else
+
+                    {
+                        MessageBox.Show("Thêm Khach Hàng Thành Công");
+                        fMember_Load(null, null);
+                    }
+                }
+                
             }
             catch
             {
@@ -83,13 +93,21 @@ namespace QuanLyTiemGame
         {
             try
             {
-                string err = "";
-                if (!db.CapNhapKhachHang(ref err, txtTenDangNhap.Text, txtMatKhau.Text))
-                    MessageBox.Show("Lỗi :" + err);
+                if (txtTenDangNhap.Text == "" && txtMatKhau.Text == "")
+                {
+                    MessageBox.Show("Vui lòng nhập thông tin");
+                    txtTenDangNhap.Focus();
+                }
                 else
                 {
-                    MessageBox.Show("Sửa Khach Hang Thành Công");
-                    fMember_Load(null,null);
+                    string err = "";
+                    if (!db.CapNhapKhachHang(ref err, txtTenDangNhap.Text, txtMatKhau.Text))
+                        MessageBox.Show("Lỗi :" + err);
+                    else
+                    {
+                        MessageBox.Show("Sửa Khach Hang Thành Công");
+                        fMember_Load(null, null);
+                    }
                 }
             }
             catch

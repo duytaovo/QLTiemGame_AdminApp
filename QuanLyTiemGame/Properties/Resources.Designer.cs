@@ -413,6 +413,16 @@ namespace QuanLyTiemGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Home {
+            get {
+                object obj = ResourceManager.GetObject("Home", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hướng_dẫn_cách_chụp_khói_nghệ_thuật_2 {
             get {
                 object obj = ResourceManager.GetObject("Hướng dẫn cách chụp khói nghệ thuật 2", resourceCulture);
@@ -466,6 +476,26 @@ namespace QuanLyTiemGame.Properties {
         internal static System.Drawing.Bitmap login_bg_fnb {
             get {
                 object obj = ResourceManager.GetObject("login-bg-fnb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap máy_tính {
+            get {
+                object obj = ResourceManager.GetObject("máy tính", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap máy_tính1 {
+            get {
+                object obj = ResourceManager.GetObject("máy tính1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

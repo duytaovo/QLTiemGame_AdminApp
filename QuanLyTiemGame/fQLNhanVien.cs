@@ -52,17 +52,28 @@ namespace QuanLyTiemGame
 
         private void btnThemNV_Click(object sender, EventArgs e)
         {
-
+            
             try
             {
-                string err = "";
-                if (!db.ThemNhanVien(ref err, txtTenDangNhap.Text, txtMatKhau.Text, txtHoTenNV.Text, cmbGioiTinhNV.Text, txtSoDT.Text,txtDiaChiNV.Text,txtVaiTroNV.Text, txtTienLuongNV.Text))
-                    MessageBox.Show("Lỗi :" + err);
-                else
 
+                if (txtTenDangNhap.Text == "" && txtMatKhau.Text == "")
                 {
-                    MessageBox.Show("Thêm Nhân Viên Thành Công");
+                    MessageBox.Show("Vui lòng nhập thông tin");
+                    txtTenDangNhap.Focus();
                 }
+                else
+                {
+                    string err = "";
+                    if (!db.ThemNhanVien(ref err, txtTenDangNhap.Text, txtMatKhau.Text, txtHoTenNV.Text, cmbGioiTinhNV.Text, txtSoDT.Text, txtDiaChiNV.Text, txtVaiTroNV.Text, txtTienLuongNV.Text))
+                        MessageBox.Show("Lỗi :" + err);
+                    else
+
+                    {
+                        MessageBox.Show("Thêm Nhân Viên Thành Công");
+                        layNVFromProc();
+                    }
+                }
+               
             }
             catch
             {
@@ -81,14 +92,20 @@ namespace QuanLyTiemGame
         {
             try
             {
-                string err = "";
+                if (txtTenDangNhap.Text == "" && txtMatKhau.Text == "")
+                {
+                    MessageBox.Show("Vui lòng nhập thông tin");
+                    txtTenDangNhap.Focus();
+                }
+                else { 
+                    string err = "";
                 if (!db.CapNhapNhanVien(ref err, txtTenDangNhap.Text, txtMatKhau.Text, txtHoTenNV.Text,dateTimePickerNSNV.Value, cmbGioiTinhNV.Text, txtSoDT.Text, txtDiaChiNV.Text, txtVaiTroNV.Text, txtTienLuongNV.Text))
                     MessageBox.Show("Lỗi :" + err);
                 else
                 {
                     MessageBox.Show("Sửa Nhân Viên Thành Công");
                     layNVFromProc();
-                }
+                }}
             }
             catch
             {

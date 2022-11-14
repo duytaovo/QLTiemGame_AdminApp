@@ -23,16 +23,38 @@ namespace QuanLyTiemGame.DAO
             return db.ExcuteQuerryDataSet(query, CommandType.Text,null);
         }
 
-        public DataSet LayTienMay(string ma_may)
+        public object LayTienMay(string ma_may)
         {
-            string query = string.Format("SELECT * FROM TinhTienMay('{0}');", ma_may);
-            return db.ExcuteQuerryDataSet(query, CommandType.Text, null);
+            string query = string.Format("SELECT dbo.TinhTienMay('{0}');", ma_may);
+            return db.ExecuteScalar(query, null);
         }
 
-        public DataSet LayTienDichVu(string ma_may)
+        public object LayTienDichVu(string ma_may)
         {
-            string query = string.Format("SELECT * FROM TinhTienDichVu('{0}');", ma_may);
-            return db.ExcuteQuerryDataSet(query, CommandType.Text, null);
+            string query = string.Format("SELECT dbo.TinhTienDichVu('{0}');", ma_may);
+            return db.ExecuteScalar(query, null);
+        }
+
+        public object LayTienTong(string ma_may, string ma_uu_dai)
+        {
+            string query = string.Format("SELECT dbo.TongTien('{0}', '{1}');", ma_may,ma_uu_dai);
+            return db.ExecuteScalar(query, null);
+        }
+
+        public object LayTienMaGiamGia(string ma_uu_dai)
+        {
+            string query = string.Format("SELECT dbo.LayTienMaGiamGia('{0}');", ma_uu_dai);
+            return db.ExecuteScalar(query, null);
+        }
+
+
+        public object LayTongTien(string ma_may, string ma_giam_giam)
+        {
+            string query1 = string.Format("proc_XuatHoaDonChiTiet2 @ma_may , @ma_uu_dai", new object[] { ma_may, ma_giam_giam});
+            string query = string.Format("proc_XuatHoaDonChiTiet2", CommandType.StoredProcedure,
+                new SqlParameter("@ma_may", ma_may),
+              new SqlParameter("@ma_uu_dai", ma_giam_giam));
+             return db.ExecuteScalar(query1, null);;
         }
 
         public bool CapNhapTrangThaiMay(ref string err, string ma_may, string trang_thai)
