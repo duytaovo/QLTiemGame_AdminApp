@@ -1,0 +1,348 @@
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.exe.config
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.exe
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.pdb
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.AssemblyReference.cache
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Properties.Resources.resources
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.GenerateResource.cache
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.CoreCompileInputs.cache
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.exe
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.pdb
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fLogin.resources
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fTableManager.resources
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAccountProfile.resources
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAdmin.resources
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\HK3\LT_Windows\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.CopyComplete
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.exe.config
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.exe
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.pdb
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.AssemblyReference.cache
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAccountProfile.resources
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAdmin.resources
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fLogin.resources
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fTableManager.resources
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Properties.Resources.resources
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.GenerateResource.cache
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.CoreCompileInputs.cache
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.exe
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.pdb
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\bin\Debug\dje-NE\QuanLyCafe.resources.dll
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fLogin.dje-NE.resources
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\dje-NE\QuanLyCafe.resources.dll
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Foods.resources
+D:\visual studio 2019 application\lap_trinh_window\quan_ly_cafe_do_an_cuoi_ky\QuanLyCafe\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Add_foods_image.resources
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.exe.config
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.exe
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.pdb
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\bin\Debug\dje-NE\QuanLyCafe.resources.dll
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Add_foods_image.resources
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAccountProfile.resources
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAdmin.resources
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fLogin.resources
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Foods.resources
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fTableManager.resources
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Properties.Resources.resources
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fLogin.dje-NE.resources
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\dje-NE\QuanLyCafe.resources.dll
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.CopyComplete
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.exe
+C:\Users\Admin\Documents\Zalo Received Files\QuanLyCafe1\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.pdb
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Add_foods_image.resources
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAccountProfile.resources
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAdmin.resources
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fLogin.resources
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Foods.resources
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fTableManager.resources
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Properties.Resources.resources
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fLogin.dje-NE.resources
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.GenerateResource.cache
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.CoreCompileInputs.cache
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.exe
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.pdb
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.exe.config
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.exe
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.pdb
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\bin\Debug\dje-NE\QuanLyCafe.resources.dll
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\obj\Debug\dje-NE\QuanLyCafe.resources.dll
+D:\HK3\LT_Windows\Demo\Lâm\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.CopyComplete
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.exe.config
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.exe
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.pdb
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\bin\Debug\dje-NE\QuanLyCafe.resources.dll
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.AssemblyReference.cache
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Add_foods_image.resources
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAccountProfile.resources
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAdmin.resources
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fLogin.resources
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Foods.resources
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fTableManager.resources
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Properties.Resources.resources
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fLogin.dje-NE.resources
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.GenerateResource.cache
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.CoreCompileInputs.cache
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\obj\Debug\dje-NE\QuanLyCafe.resources.dll
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.exe
+D:\visual studio 2019 application\lap_trinh_window\do_an_cuoi_ky_chu_nhat\Nhóm 3\Nhóm 3\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.pdb
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.exe.config
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.exe
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.pdb
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\dje-NE\QuanLyCafe.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Add_foods_image.resources
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAccountProfile.resources
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAdmin.resources
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fLogin.resources
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Foods.resources
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fTableManager.resources
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Properties.Resources.resources
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fLogin.dje-NE.resources
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.GenerateResource.cache
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.CoreCompileInputs.cache
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\dje-NE\QuanLyCafe.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.exe
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.pdb
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\AxShockwaveFlashObjects.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.Shared.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\ShockwaveFlashObjects.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\stdole.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\EnvDTE.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.MSXML.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.AssemblyReference.cache
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\EnvDTE80.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.Build.Tasks.Core.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\VSLangProj.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\VSLangProj80.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Newtonsoft.Json.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.Build.Utilities.Core.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.Build.Framework.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\VSLangProj2.dll
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.exe.config
+D:\visual studio 2019 application\Nhom_5\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fQuanLyMay.resources
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.AssemblyReference.cache
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.exe.config
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Add_foods_image.resources
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAccountProfile.resources
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAdmin.resources
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fLogin.resources
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fQuanLyMay.resources
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fTableManager.resources
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.Properties.Resources.resources
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fLogin.dje-NE.resources
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.GenerateResource.cache
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.csproj.CoreCompileInputs.cache
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.exe
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.pdb
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\QuanLyCafe.fAdminQuanGame.resources
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.exe.config
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.exe
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\QuanLyCafe.pdb
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\dje-NE\QuanLyCafe.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\AxShockwaveFlashObjects.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.Shared.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\ShockwaveFlashObjects.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\EnvDTE.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\stdole.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\EnvDTE80.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.Build.Tasks.Core.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\VSLangProj.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\VSLangProj80.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Newtonsoft.Json.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.MSXML.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.Build.Utilities.Core.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.Build.Framework.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\VSLangProj2.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\visual studio 2019 application\HeQuanTriCSDL\QuanLyCafe\QuanLyCafe\obj\Debug\dje-NE\QuanLyCafe.resources.dll
